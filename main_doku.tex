@@ -1,4 +1,4 @@
-\documentclass[11pt]{scrartcl} 
+\documentclass{article} 
 \begin{document}
 
 % Titelseite
@@ -10,27 +10,24 @@
 \newpage
 
 \tableofcontents
+\newpage
 
 % Import der Einleitung
-\newpage
 \include{einleitung_doku}
 
 % Import der Hardware Doku
-\newpage
 \include{hardware_doku}
 
 % Import der Bodenstation Doku
-\newpage
 \include{bodenstation_doku}
 
 % Import der Android Doku
-\newpage
 \include{android_doku}
 
 % Import des Schlussteils
-\newpage
 \include{schluss_doku}
 
-
+% Import des Appendix
+\include{appendix_doku}
 
 \end{document}
