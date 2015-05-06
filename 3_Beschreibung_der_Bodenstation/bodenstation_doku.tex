@@ -9,16 +9,3 @@ Die Bodenstation ermöglicht es außerdem, dass gesicherte Daten auch nach der D
 Unser Ziel bei der Entwicklung der Bodenstation war es, eine modulare und anpassbare Plattform zu entwickeln, welche nicht nur mit unserem Satelliten, sondern mit vielen verschiedenen Satelliten genutzt werden kann, ohne dass ein großer Konfigurationsaufwand besteht. \\
 Um dies zu ermöglichen, haben wir die Bodenstation in mehrere Dimensionen skalierbar entwickelt, was es im Endeffekt sehr einfach macht, neue Satelliten und verschiedene Übertragungsprotokolle zur Bodenstation hinzuzufügen.
 
-\subsection{Verwendete Komponenten}
-Zum Erreichen unserer Ziele haben wir verschiedene Komponenten verwendet, welche einerseits der Datenvisualisierung und -analyse dienen, andererseits aber auch der Entkopplung und skalierbaren Entwicklung dienen.
-
-Für die Bodenstation haben wir folgende Komponenten verwendet:
-\begin{description}
-	\item \href {http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html}{Java 8} als Programmiersprache, da jedes unserer Gruppenmitglieder mit Java vertraut ist, wir aber trotzdem die mächtigen funktionalen Features von Java 8 nutzen wollten
-	\item \href {https://netbeans.org/features/platform/}{Netbeans Platform} das die Möglichkeit bietet, einfach eine integrierte, modulare und entkoppelte GUI-Applikation auf Basis von Java Swing zu entwickeln
-	\item \href {http://junit.org/}{JUnit} zum Testen von bestimmten, komplizierten Teilen der Applikation
-	\item \href {http://www.json.org/java/}{org.json} als JSON-Library zum Parsen von erhaltenen JSON-Daten, wie beispielsweise beim Empfangen von Daten, und zum Generieren eigener JSON-Daten, wie beispielsweise beim Sichern von Daten
-	\item \href {http://fazecast.github.io/jSerialComm/}{JSerialComm (zum Start des Projektes noch serial-comm)} zum Lesen von Daten aus seriellen Ports
-	\item \href {http://worldwind.arc.nasa.gov/java/}{NASA World Wind} zum Anzeigen der Satellitenflugbahn auf einer dreidimensionalen-, Satellitenbilder-basierten Weltkugel  in Echtzeit
-	\item \href {http://jchart2d.sourceforge.net/}{JChart2D} zum Anzeigen von übertragenen Daten in einem zweidimensionalen Graphen in Echtzeit 
-\end{description}

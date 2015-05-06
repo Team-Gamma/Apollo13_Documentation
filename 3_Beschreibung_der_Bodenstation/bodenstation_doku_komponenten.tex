@@ -1,0 +1,13 @@
+\subsection{Verwendete Komponenten}
+Zum Erreichen unserer Ziele haben wir verschiedene Komponenten verwendet, welche einerseits der Datenvisualisierung und -analyse dienen, andererseits aber auch der Entkopplung und skalierbaren Entwicklung dienen.
+
+Für die Bodenstation haben wir folgende Komponenten verwendet:
+\begin{description}
+	\item \href {http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html}{Java 8} als Programmiersprache, da jedes unserer Gruppenmitglieder mit Java vertraut ist, wir aber trotzdem die mächtigen funktionalen Features von Java 8 nutzen wollten
+	\item \href {https://netbeans.org/features/platform/}{Netbeans Platform} das die Möglichkeit bietet, einfach eine integrierte, modulare und entkoppelte GUI-Applikation auf Basis von Java Swing zu entwickeln
+	\item \href {http://junit.org/}{JUnit} zum Testen von bestimmten, komplizierten Teilen der Applikation
+	\item \href {http://fazecast.github.io/jSerialComm/}{JSerialComm (zum Start des Projektes noch serial-comm)} zum Lesen von Daten aus seriellen Ports
+	\item \href {http://worldwind.arc.nasa.gov/java/}{NASA World Wind} ist eine Software, welche Satelliten- und Luftbilder auf einem virtuellen Erdball darstellt. Daten der Bodenstation werden mittels dieser Software in Relation zur Höhe in Echtzeit visualisiert.
+	\item \href {http://jchart2d.sourceforge.net/}{JChart2D} zum Anzeigen von übertragenen Daten in einem zweidimensionalen Graphen in Echtzeit 
+	\item \href{http://www.json.org/}{JSON (JavaScript Object Notation)} ist ein Datenformat, welches zum austausch von Daten zwischen Anwendungen angewand wird. JSON ermöglicht es Daten in verschiedenen Format in Textform zu speichern und sie wieder zurück in ihre uhrsprüngliche Form zu interpretieren. Dieses Datenformat wird in der Bodenstationsoftware genutzt Daten mit dem Sateliten auszutauschen, zu loggen, zu exportieren und zu importieren.
+\end{description}
