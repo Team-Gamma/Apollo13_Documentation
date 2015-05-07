@@ -28,6 +28,9 @@ Nicht mehr als 3 Stufiges Inhaltsverzeichnis
 5. Öffentlichkeitsarbeit ( 1 Seite)
 6. Anforderungen (1 Seite)
 7. Reflexion des Projektverlaufes (1-2 Seiten)
+  1. Reflexion der Hardwaregruppe
+  2. Reflexion der Softwaregruppe
+  3. Reflexion der Zusammenarbeit zwischen den Teams
 
 
 ## Team Gamma (Aufstellung für 2015)
