@@ -20,14 +20,14 @@ Nicht mehr als 3 Stufiges Inhaltsverzeichnis
   5. Bergungssystem
 3. Beschreibung der Bodenstation (10 Seiten)
 4. Projektplanung (1-2 Seiten)
-5. Zeitplan der CanSat Vorbereitung (1-2 Seiten)
-  1. Einschätzung der Mittel
+  1. Zeitplan der CanSat Vorbereitung (1-2 Seiten)
+  2. Einschätzung der Mittel
     1. Budget
     2. Externe Unterstützung
-  2. Testkonzept
-6. Öffentlichkeitsarbeit ( 1 Seite)
-7. Anforderungen (1 Seite)
-8. Reflexion des Projektverlaufes (1-2 Seiten)
+  3. Testkonzept
+5. Öffentlichkeitsarbeit ( 1 Seite)
+6. Anforderungen (1 Seite)
+7. Reflexion des Projektverlaufes (1-2 Seiten)
 
 
 ## Team Gamma (Aufstellung für 2015)
