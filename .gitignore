@@ -3,3 +3,6 @@
 *.toc
 *.gz
 main_doku.txt
+*.pdf
+main_doku.out
+*.out
