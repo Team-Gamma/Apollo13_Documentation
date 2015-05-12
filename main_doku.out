@@ -20,3 +20,41 @@
 \BOOKMARK [3][-]{subsubsection.2.7.1}{Inter-Integrated-Circuit}{subsection.2.7}% 20
 \BOOKMARK [3][-]{subsubsection.2.7.2}{Python}{subsection.2.7}% 21
 \BOOKMARK [2][-]{subsection.2.8}{H\374lle und Platzmanagement - Dokumentation}{section.2}% 22
+\BOOKMARK [1][-]{section.3}{Beschreibung der Bodenstation}{}% 23
+\BOOKMARK [2][-]{subsection.3.1}{Einleitung}{section.3}% 24
+\BOOKMARK [2][-]{subsection.3.2}{Verwendete Komponenten}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.3}{Funktionen}{section.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Nutzerfreundlichkeit}{subsection.3.3}% 27
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Erweiterbarkeit}{subsection.3.3}% 28
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Features}{subsection.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.4}{Architektur}{section.3}% 30
+\BOOKMARK [2][-]{subsection.3.5}{Softwaretests}{section.3}% 31
+\BOOKMARK [2][-]{subsection.3.6}{Nutzeranleitung}{section.3}% 32
+\BOOKMARK [3][-]{subsubsection.3.6.1}{Livestream starten\(Daten von einem Satelliten empfangen\)}{subsection.3.6}% 33
+\BOOKMARK [3][-]{subsubsection.3.6.2}{Daten importieren}{subsection.3.6}% 34
+\BOOKMARK [3][-]{subsubsection.3.6.3}{Graphen anpassen}{subsection.3.6}% 35
+\BOOKMARK [3][-]{subsubsection.3.6.4}{Daten exportieren}{subsection.3.6}% 36
+\BOOKMARK [3][-]{subsubsection.3.6.5}{Daten mittels WLAN an Clients weiterleiten}{subsection.3.6}% 37
+\BOOKMARK [3][-]{subsubsection.3.6.6}{Graphische Oberfl\344che personalisieren}{subsection.3.6}% 38
+\BOOKMARK [2][-]{subsection.3.7}{Kosten-/Nutzenanalyse}{section.3}% 39
+\BOOKMARK [1][-]{section.4}{Projektplanung}{}% 40
+\BOOKMARK [2][-]{subsection.4.1}{Zeitplan der CanSat Vorbereitung}{section.4}% 41
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Einsch\344tzung der Mittel}{subsection.4.1}% 42
+\BOOKMARK [4][-]{paragraph.4.1.1.1}{Budget}{subsubsection.4.1.1}% 43
+\BOOKMARK [4][-]{paragraph.4.1.1.2}{Externe Unterst\374tzung}{subsubsection.4.1.1}% 44
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Testkonzept}{subsection.4.1}% 45
+\BOOKMARK [1][-]{section.5}{\326ffentlichkeitsarbeit}{}% 46
+\BOOKMARK [2][-]{subsection.5.1}{Website}{section.5}% 47
+\BOOKMARK [2][-]{subsection.5.2}{Sch\374lerzeitung}{section.5}% 48
+\BOOKMARK [2][-]{subsection.5.3}{Pr\344sentationen}{section.5}% 49
+\BOOKMARK [2][-]{subsection.5.4}{Ausstellung am MINT-Projekttag unserer Schule}{section.5}% 50
+\BOOKMARK [2][-]{subsection.5.5}{Logo}{section.5}% 51
+\BOOKMARK [1][-]{section.6}{Anforderungen}{}% 52
+\BOOKMARK [1][-]{section.7}{Reflexion des Projektverlaufes}{}% 53
+\BOOKMARK [2][-]{subsection.7.1}{Reflexion der Hardwaregruppe}{section.7}% 54
+\BOOKMARK [2][-]{subsection.7.2}{Reflexion der Softwaregruppe}{section.7}% 55
+\BOOKMARK [2][-]{subsection.7.3}{Reflexion der Zusammenarbeit zwischen den Teams}{section.7}% 56
+\BOOKMARK [1][-]{section.8}{Anhang}{}% 57
+\BOOKMARK [2][-]{subsection.8.1}{GANTT- Diagramme}{section.8}% 58
+\BOOKMARK [2][-]{subsection.8.2}{Hardware - GANTT}{section.8}% 59
+\BOOKMARK [2][-]{subsection.8.3}{Hardware - GANTT}{section.8}% 60
