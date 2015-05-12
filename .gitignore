@@ -2,4 +2,4 @@
 *.log
 *.toc
 *.gz
-main_doku.txt
+*.out

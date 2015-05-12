@@ -1,10 +1,19 @@
 \documentclass{article}
+\usepackage{pdfpages}
+\usepackage{a4wide}
+\usepackage{tabularx}
 \usepackage[colorlinks]{hyperref}
 \usepackage[german]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[3D]{movie15}
+\usepackage{booktabs} 
+\usepackage{eurosym}
 \usepackage{amsmath}
+
+\setcounter{tocdepth}{5}  % Ebenen für Aufnahme in das Inhaltsverzeichnis
+\setcounter{secnumdepth}{4}   % Ebenen für Nummerierun
+
 
 \begin{document}
 
@@ -31,19 +40,16 @@
 % Import der Projektplanung
 \include{./4_Projektplanung/projektplanung_doku}
 
-% Import des Zeitplans
-\include{./5_Zeitplan_der_CANSAT_Vorbereitung/zeitplan_doku}
-
 % Import der Oeffentlichkeitsarbeit
-\include{./6_Oeffentlichkeitsarbeit/oeffentlichkeitsarbeit_doku}
+\include{./5_Oeffentlichkeitsarbeit/oeffentlichkeitsarbeit_doku}
 
 % Import der Anforderungen
-\include{./7_Anforderungen/anforderungen_doku}
+\include{./6_Anforderungen/anforderungen_doku}
 
 % Import der Reflexion
-\include{./8_Reflexion_des_Projektverlaufes/projektverlauf_doku}
+\include{./7_Reflexion_des_Projektverlaufes/projektverlauf_doku}
 
 % Import des Anhanges
-\include{./9_Anhang/anhang_doku}
+\include{./8_Anhang/anhang_doku}
 
 \end{document}
