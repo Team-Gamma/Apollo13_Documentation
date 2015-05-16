@@ -22,7 +22,7 @@ dist = b + zDist/2;
 if(dist > 2*bb.max.subtract(bb.min).length){
 	dist = bb.max.subtract(bb.min).length;
 } 
-pos = new Vector3(dist, 180, 90).add(bb.center);
+pos = new Vector3(dist, 0, 0).add(bb.center);
 camera.position.set(pos);
 camera.targetPosition.set(bb.center);
 scene.update();

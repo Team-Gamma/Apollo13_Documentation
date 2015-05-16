@@ -90,11 +90,29 @@ Der Arduino kann den Wert der am analogen Pin ankommt viel ungenauer darstellen,
 \subsubsection{Universal-Asynchronous-Receiver-Transmitter}
 UART ist eine digitale serielle Schnittstelle zum realisieren von einfachen Kommunikationen zwischen zwei Endpunkten, die Funktionsweise ist denkbar einfach. Wir nutzen in unserem Satelliten meist eine Baudrate von 9600bps, Baud ist die Schrittgeschwindigkeit oder Symbolrate, also 9600 bits per second. Für UART gibt es wie beim RJ45 Stecker TX und RX, die beim Aufbau einer Kommunikation gekreuzt werden. Transciever und Reciever. Nun wird zwischen vielen verschiedenen Arten von UART unterschieden in unserem Fall die TTL-UART Variante welche die beim Analog-to-Digital-Converter genannten 5V als logische 1 bezeichnen. \\
 
- 
+\subsection {Hülle und Platzmanagement - Fachliche Grundlage}
+Um die 3D gedruckte Wand zu erzeugen wurde die 3D Moddelierungssoftware \href{http://www.sketchup.com/de} {Sketchup} von Google verwendet. Sketchup bietet die Möglichkeit vergleichsweiße einfach 3D Modelle zu zeichnen. Um dies zu tun muss klar sein, welche Objekte gezeichnet werden sollen. Diese Objekte müssen vermessen und innerhalb von Sketchup gezeichnet werden. Dies erfordert die Kentniss über gewisse mathematische Methoden zur Berechnung von Kreisen, Flächen und Körpern. Die meisten 3D-Drucker benötigen Datein des Types .stl, welche in Sketchup mit einem Plugin erzeugt werden können.
+Zum fertigen von GFK Komponenten wird ein Körper benötigt, auf welchen das GFK laminiert werden kann. 
 
 \subsubsection{Inter-Integrated-Circuit}
 I-2-C ist ein serieller Datenbus der über zwei Kabel mit einer 10-Bit-Adressierung, 1024 IC's steuern kann mit einer maximalen Geschwindigkeit 5 Mbit/s. Der Sinn des Bussystems ist es mithilfe von einer Adressen einen Datensatz oder Befehl nur an den gewünschten Empfänger zu senden, obwohl nur eine Datenleitung genutzt wird, eine Art Master/Slave System. Der Master sagt wer wann zu sprechen hat und welche Befehle von wem zu empfangen sind.
 
 \subsubsection{Python}
 Als Programmiersprache zur Programmierung des Beaglebone Black’s, haben wir uns für die Programmiersprache Python entschieden. Es wäre zwar ebenfalls möglich gewesen den Mikrocontroller mit den Sprachen JavaScript, Java, C, C++, C\# und vielen weiteren Sprachen zu programmieren, da es sich bei dem Beaglebone um ein embedded-System handelt, welches praktisch alle Programmiersprachen unterstützt, sofern entsprechende Librarys existieren. Allerdings haben wir uns aufgrund der Tatsache, dass Python im Gegensatz zu Java nicht objektorientiert geschrieben werden muss, und wir auf der Hardwareseite möglichst auf objektorientierte Programmierung verzichten wollen, da sie nicht nötig ist, für Python entschieden. Ein weiteres wichtiges Argument war die gute Python-Library, welche von einer großen Community permanent gewartet und aktualisiert wird.
+
+\subsection {Hülle und Platzmanagement - Dokumentation}
+Wir haben uns dazu entschieden, die äußere Hülle aus GFK (Glasfaser verstärkter Kunststoff) zu fertigen. Dieses hat die Eigenschaften, dass er bei einem sehr geringen Gewicht, und bei einer geringen Wandstärke trotzdem eine gewisse Stabilität aufweißt. Aus dem GFK haben wir eine Röhre mit einem Innendurchmesser von 31,5 mm und einem Außendurchmesser von 33,5 mm laminiert. Diese Röhre wurde auf eine Länge von 111 mm gekürzt und gefeilt. Um die Röhre oben und unten zu verschließen haben wir uns bei Thyssen Krupp System Engineering zwei Aluminium Deckel fräsen lassen. Diese haben uns ebenfalls durch ihr geringes Gewicht überzeugt. \\
+Um die Elektronik innerhalb der Hülle zu plazieren und zu befestigen haben wir uns dazu entschieden eine Zwischenwand mit einem 3D-Drucker anzufertigen. Diese Wand teilt die Hülle mittig und bietet so auf beiden Seiten Platz um unser Microcontroller Board und unsere Sensorik Platine zu befestigen. Beide Bauteile werden mittels vier Gewindestangen an der Wand befestigt. Durch die Technik des 3D-Druckens ist es möglich der Wand ein sehr geringes Gewicht bei einer verhältnismäßig hohen Stabilität zu verleihen. Zusätzlich gibt es uns die Möglichkeit die Wand millimetergenau zu gestalten. \\
+Am unteren Ende der Wand befindet sich eine Aushölung, sowie ein Fuß. Diese ist zum einen dafür da um den Sharp Feinstaub Sensor zu befestigen. Zum anderen gibt der Fuß der Wand und somit dem gesamten Satelliten eine gewisse Stabilität. Der Fuß besitzt auf der einen Seite der Wand Bohrungen. Diese Bohrungen werden verwendet um die Aluminiumdeckel an der Wand zu befestigen. Da der Feinstaubsensor einen Luftzug benötigt befindet sich ein Durchlass innerhalb der Wand. Um das Microcontroller Board mit der Sensorik Platine zu verbinden existiert ein Fenster in der Mitte der Wand. Um die Sensorik Platine und das Microcontroller Board an der Wand zu befestigen existieren vier Bohrungen.
+
+\begin{figure}[h] 
+      \centering 
+      \includemovie[ 
+        poster,controls,
+       3Djscript=2_Beschreibung_des_CANSAT/Encompass.js
+      ]{15cm}{15cm}{2_Beschreibung_des_CANSAT/CanSat_2015.u3d} 
+      \caption{Der Sattelit}\label{fig:hla} 
+\end{figure} 
+
+
 \end {comment}
