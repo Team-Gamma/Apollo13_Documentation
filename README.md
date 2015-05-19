@@ -18,6 +18,7 @@ Nicht mehr als 3 Stufiges Inhaltsverzeichnis
   3. Elektrische Konstruktion
   4. Softwareentwurf
   5. Bergungssystem
+  6. Aufgetretene Probleme
 3. Beschreibung der Bodenstation (10 Seiten)
   1. Überblick
   2. Verwendete Komponenten
