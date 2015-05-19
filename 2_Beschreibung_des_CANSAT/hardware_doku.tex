@@ -3,12 +3,10 @@
 
 % Blockdiagramm (irgendjemand)
 \subsection{Missionsüberblick}
-Wir haben uns für den Satelliten überlegt, dass dieser so weit wie möglich individuell sein sollte. Daher greifen wir nicht auf das, vom Wettbewerb bereitgestelte T-Minus CanSat Kit zurück. Stattdessen haben wir uns im Detail überlegt, welche Sensoren unseren Erwartungen entsprechen und wie wir diese bestmöglich innerhalb der Dose plazieren können. Zusätzlich möchten wir nicht auf eine Cola-Dose als Hülle zurück greifen, sondern möchten auch hier unser eigenes Design erschaffen.
-
+Wir haben uns für den Satelliten überlegt, dass dieser so weit wie möglich individuell sein sollte. Daher greifen wir nicht auf das, vom Wettbewerb bereitgestellte T-Minus CanSat Kit zurück. Stattdessen haben wir uns im Detail überlegt, welche Sensoren unseren Erwartungen entsprechen und wie wir diese bestmöglich innerhalb der Dose platzieren können. Zusätzlich möchten wir nicht auf eine Cola-Dose als Hülle zurück greifen, sondern möchten auch hier unser eigenes Design erschaffen.
 
 % 3D Skizze, Erklärung der einzelnen Bestandteile (Alexander B.)
 \input {./2_Beschreibung_des_CANSAT/hardware_mechanischesDesign_doku}
-
 
 % Elektrisches Vorgehen, Schaltplan, Funkverbindung (Till)
 \input {./2_Beschreibung_des_CANSAT/hardware_elektrischeKonstruktion_doku}
@@ -19,7 +17,14 @@ Wir haben uns für den Satelliten überlegt, dass dieser so weit wie möglich in
 % Fallschirm (Alexander F.)
 \input {./2_Beschreibung_des_CANSAT/hardware_bergungssystem_doku}
 
+\subsection{Aufgetretene Probleme}
+Während des Bau des CanSats sind selbstverständlich einige Probleme aufgetreten. Manche dieser Probleme waren relativ leicht zu lösen, andere erforderten eine detaillierte Recherche um sie zu beheben. Im nachfolgenden werden einige dieser Probleme und unsere Lösungsansätze erläutert.
 
+\begin{itemize}
+	\item \textbf{Befestigung der Dosendeckel}: Es war vorerst geplant durchgängige Gewindestangen zu verwenden, welche durch die Wand führen und so die Deckel und die Wand miteinander verbinden. Diese Stangen kollidierten jedoch mit den Löchern für die Befestigung des Mikrokontorollers und der Sensorik Platine. Nach verhältnismäßig langem Überlegen und Ausprobieren haben wir uns dazu entschlossen die Gewindestangen nicht durchgängig zu machen. Stattdessen werden sie lediglich durch den Fuß und den Kopf der Wand gesteckt und dort verschraubt. Dies hat den Vorteil, dass wir das Gewicht deutlich verringern und wir innerhalb des CanSats wesentlich mehr Freiräume haben um Objekte zu platzieren. Nachteilig ist jedoch, dass dadurch die Stabilität verringert wird.
+	\item \textbf{Spektrum des UV Sensors}:
+	\item \textbf{Intensität des Sharp Feinstaub Sensors}:
+\end{itemize}
 %ACHTUNG AB HIER ALLES AUSKOMMENTIERT
 
 \begin {comment}
