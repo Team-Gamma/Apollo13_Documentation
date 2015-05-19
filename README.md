@@ -19,6 +19,16 @@ Nicht mehr als 3 Stufiges Inhaltsverzeichnis
   4. Softwareentwurf
   5. Bergungssystem
 3. Beschreibung der Bodenstation (10 Seiten)
+  1. Überblick
+  2. Verwendete Komponenten
+  3. Funktionen
+    1. Nutzerfreundlichkeit
+    2. Erweiterbarkeit
+    3. Featueres
+  4. Architektur
+  5. Tests
+  6. Nutzeranleitung
+  7. Kosten-/Nutzenanalyse
 4. Projektplanung (3-4 Seiten)
   1. Zeitplan der CanSat Vorbereitung
   2. Einschätzung der Mittel
