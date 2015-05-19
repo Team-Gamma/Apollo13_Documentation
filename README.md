@@ -30,6 +30,8 @@ Nicht mehr als 3 Stufiges Inhaltsverzeichnis
   5. Tests
   6. Nutzeranleitung
   7. Kosten-/Nutzenanalyse
+  8. Spezifische technische Beschreibungen
+  9. Realisierung
 4. Projektplanung (3-4 Seiten)
   1. Zeitplan der CanSat Vorbereitung
   2. Einschätzung der Mittel
