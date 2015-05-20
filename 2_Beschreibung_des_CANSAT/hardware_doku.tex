@@ -27,6 +27,8 @@ Während des Bau des CanSats sind selbstverständlich einige Probleme aufgetrete
 	\item \textbf{Beaglebone Black}: Zu Beginn unserer Arbeit am Beaglebone, hatten wir einige Probleme mit diesem. Beispielsweise ließ sich zunächst die Python Library für das Beaglebone nicht vernünftig verwenden. Einige Pins ließen sich nicht vernünftig ansteuern was zu Fehlern führte. Letztlich fanden wir heraus, dass Linux Debian auf dem System installiert war. Dieses ist jedoch noch in der Testphase und kann Bugs hervorrufen. Gelöst wurde das Problem indem der Speicher mit dem Defaultsystem Linux Angstrom geflasht wurde. Danach funktionierte das Ausführen von Pythoncode ohne jegliche Probleme.
 	\item \textbf{UART und I2C-Bus}:
 \item \textbf{Haltbarkeit des Gazestoffes}: Beim Bau des Fallschirms ist aufgefallen, das der Stoff der die Dose mit dem Fallschirm befestigt, eventuell nicht Stark genug ist. Durch die sehr löchrigen Struktur kann es auch schon durch einen Riss einer kleinen Stelle, der gesamte Stoff durch zu starke Belastung am Rissende zerreißen.
-	
-
 \end{itemize}
+
+\subsubsection{Testkonzept}
+
+Um sicherzustellen, dass der CanSat problemlos funktioniert wurden diverse Tests durchgeführt. Dazu zählt natürlich das Prüfen auf Funktionstüchtigkeit der Sensoren. Für dieses wurde jeder Sensor separat an verschiedene Mikrocontroller (Beaglebon Black, Arduino Mega) angeschlossen. Dadurch konnte verifiziert werden, dass jeder Sensor unter jedem Board den gleichen Output liefert. Zusätzlich wurde überprüft, ob die Sensoren auf eine Veränderung der zu messenden Eigenschaft reagieren. Um zu erkennen, ob die gemessenen Werte den tatsächlichen Werten entsprechen werden diese im Umweltlabor von Atlas Elektronik getestet und kalibriert. Dort soll ebenfalls überprüft werden wie stabil der CanSat ist um vorherzusagen, ob er beim Aufschlag beschädigt wird.
