@@ -55,5 +55,3 @@ Nicht mehr als 3 Stufiges Inhaltsverzeichnis
 | Marc Huisinga, Kevin Neumeyer, Robin Bley | Bodenstation Software |
 
 ## LaTeX
-
-
