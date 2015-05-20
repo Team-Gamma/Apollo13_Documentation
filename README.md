@@ -18,7 +18,8 @@ Nicht mehr als 3 Stufiges Inhaltsverzeichnis
   3. Elektrische Konstruktion
   4. Softwareentwurf
   5. Bergungssystem
-  6. Aufgetretene Probleme
+  6. Testkonzept
+  7. Aufgetretene Probleme
 3. Beschreibung der Bodenstation (10 Seiten)
   1. Überblick
   2. Verwendete Komponenten
@@ -37,7 +38,6 @@ Nicht mehr als 3 Stufiges Inhaltsverzeichnis
   2. Einschätzung der Mittel
     1. Budget
     2. Externe Unterstützung
-  3. Testkonzept
 5. Öffentlichkeitsarbeit ( 1 Seite)
 6. Anforderungen (1 Seite)
 7. Reflexion des Projektverlaufes (1-2 Seiten)
