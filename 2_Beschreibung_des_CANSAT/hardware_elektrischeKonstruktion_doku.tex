@@ -37,3 +37,26 @@ UART ist eine digitale serielle Schnittstelle zum realisieren von einfachen Komm
 
 \paragraph{Inter-Integrated-Circuit}
 I-2-C ist ein serieller Datenbus der über zwei Kabel mit einer 10-Bit-Adressierung, 1024 IC's steuern kann mit einer maximalen Geschwindigkeit 5 Mbit/s. Der Sinn des Bussystems ist es mithilfe von einer Adressen einen Datensatz oder Befehl nur an den gewünschten Empfänger zu senden, obwohl nur eine Datenleitung genutzt wird, eine Art Master/Slave System. Der Master sagt wer wann zu sprechen hat und welche Befehle von wem zu empfangen sind.
+\newpage
+\subsubsection{Energieverbrauch}
+\begin{table}[htbp]
+  \centering
+    \begin{tabular}{rrrl}
+    \toprule
+    \textbf{Bauteil} & \textbf{Stromaufnahme} & \textbf{Spannung} & \textbf{Leistungsaufnahme} \\
+    \midrule
+    Beaglebone Black  & 500mA & 5V & 2500mW \\
+    ML8511& <1mA & 3.3V & <3.3mW \\
+    TMP006& <1mA& 3.3V& <3.3mW \\
+    Sharp& 20mA & 3.3V& 66mW\\
+    BMP180& <1mA& 3.3V& <3.3mW \\
+    Ultimate GPS Modul& 25mA&3.3V& 82.5mW \\
+    APC220& 35mA & 5V & 175mW\\
+
+    \bottomrule
+     & & &2833.4mW \\
+    \bottomrule
+    \end{tabular}%
+    \caption{Energieverbrauch}
+  \label{tab:budgetausgaben}%
+\end{table}%
