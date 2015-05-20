@@ -1,4 +1,5 @@
 \section{Beschreibung der Bodenstation}
+\subsection{Desktop Applikation}
 \input{./3_Beschreibung_der_Bodenstation/bodenstation_doku_einleitung}
 
 \input{./3_Beschreibung_der_Bodenstation/bodenstation_doku_komponenten}
@@ -17,15 +18,15 @@
 
 \input{./3_Beschreibung_der_Bodenstation/bodenstation_doku_realisierung}
 
-\begin{comment}
 
-\subsection{App Übersicht}
+\subsection{Android Applikation}
+\subsubsection{App Übersicht}
 Auch dieses Jahr haben wir uns für die Erstellung einer App entschieden. Die Hauptaufgaben der App soll sein, die Datenpakete, die von der Bodenstation über einen Hotspot gesendete werden, zu empfangen und Live, in einem passenden Graphen anzeigen zu können. Dabei legen wird Wert drauf, das es möglich ist, alle Werte die gesendet werden einzeln oder in Gruppen darzustellen sind, um sie anhand der Daten vergleichen zu können. Zusätzlich haben wir uns überlegt, falls die Zeit reicht, auch die Werte in einem Balkendiagramm anzeigen zulassen. Dabei sollen die Werte nicht einfach, wie im Livegraphen live angezeigt werden, sondern es soll die Differenz ausgerechnet werden, von dem höchsten und niedrigsten Punkt im Flug. Diese Differenzen sollen dann Grün für positive Veränderung und Rot für negative Veränderung dargestellt werden. Neben her sollen ebenfalls einige Optionsmöglichkeiten vorhanden sein, um die Graphen nach den Individuellen wünschen des Nutzern zugestalten.
 
-\subsection{Plattform und Komponenten}
+\subsubsection{Plattform und Komponenten}
 Für die Entwicklung der App haben wir uns der Plattform von Androidstudio bedient. Durch eine übersichtlich Anordnung von Fenstern und Struktur ist dies für uns ein ideales Programmierumgebung. Androisstudio ist auf Java ausgelegt, das wiederum eine groß Zahl von Features mit sich bringt. Aber allein auf dieses Programm konnten wir uns nicht verlassen, es brauchte noch zwei weiter Komponenten, um den Graphen anzeigen zu lassen und das JSON zu entpacken. Dazu haben wir uns der AndoridPlot-Libary und einer der Liberies über JSON zur Hilfe genommen.
 
-\subsection{Funktionen}
+\subsubsection{Funktionen}
 Für die App haben wir uns für folgende Funktionen vorgenommen:
 \begin{itemize}
 	\item Anzeigen der Werte in einem Livegraphen
@@ -37,15 +38,14 @@ Für die App haben wir uns für folgende Funktionen vorgenommen:
 	\item Möglichkeit alle Funktionen mit einem Debugger zu testen
 \end{itemize}
 
-\subsection{Nutzeranleitung}
+\subsubsection{Nutzeranleitung}
 Um die Team-Gamma App nutzen zu können, brauche der Benutzer unser apk.-Datei. Diese werden wir unter den gegebenen unterständen, vor dem Raketen Start, Vorort verteilen. Um diese dann zu installieren zu können, braucht es ein geeigneten Dowloadmanager der es erlaubt die apk von dort aus zu installieren. Nach der erfolgreichen Installation der App kann man nun durch betätigen des Icons der App, diese dann, ganz wie gewohnt, starten. Davor sollte drauf geachtet werden, das um die Daten von der Bodenstation empfangen zu können, muss sich der Nutzer sich vorher in den zur Verfügung gestellten Hotspot einloggen. Dieser wird ohne Password in der nähe unserer Bodenstation erreichbar. Wir wollen aber noch mal ausdrücklich drauf Hinweisen, das dieser Hotspot keine Internet Verbindung bietet, sondern nur auf lokaler Basis arbeitet.
 Nach öffnen der App sollte nach kurzer Zeit das Menü erscheinen, das die App in 3 Sektionen unterteilt: 
 
-	\subsubsection{Livegraph}
+	\paragraph{Livegraph}
 	Beim an tippen des Graphen-Icons erscheint ein graues Rechteck mit einigen Linien. Bei standardmäßigen Einstellungen, sollte fürs erste keine Werte angezeigten werden. Nur falls sich das Gerät in der nähe unseres zur Verfügung gestellten Hotspot befindet und genug Empfang hat werden nach einigen Sekunden automatisch Werte von der Bodenstation live angezeigt. Diese sollten aber während der Vorbereitungsphase nur gerade Linien darstellen. Nun kann, durchs  drücken der Menütaste des Smartphones, eine Fenster erscheinen lassen, das dazu genutzt werden kann, explizite Werte anzeigen zu lassen. Dabei ist zu beachten, das auch mehrere Werte gleichzeitig im Graph darstellbar sind.
-	\subsubsection{Balkengraph}
+	\paragraph{Balkengraph}
 	Im Balkengraph angekommen sollte dort ebenfalls ohne den Debugger nichts zu sehen sein. Im Normalfall sollte, wenn die Verbindung mit der Bodenstation steht, der Graph starten, wenn der CanSat über die Marke von 1000 Meter ist. Falls durch irgendwelche Defekte der Racket diese Marke nicht zu erreichen sei, kann man Manuelle durch betätigen des Menüknopf des Smartphones ein Fenster erscheinen lassen, wo man diesen manuell starten und stoppen kann. Der Graph wird dann den ersten Wert als ersten Punkt nehmen und den letzte gesendet Punkt als zweiten. Die Differenz wird dann positiv in Grün oder negativ in Rot dargestellt. Beim verlassen des Balkendiagramms wird dieser im Hintergrund weiter ausgeführt. Bei einer Marke von ungefähr 0 Metern, sollte der Graph sich selber beenden und die Werte solange anzeigen, bis sie nicht mehr benötigt werden. Beim Beenden des Programm sind diese aber unwiderruflich verloren!
-	\subsubsection{Optionen}
+	\paragraph{Optionen}
 	Die Option in der App geben die Möglichkeit den Livegrafen schneller oder langsamer zu machen. Außerdem wird dort auch ermöglicht, wie viele Werte gleichzeitig angezeigt werden sollen. Für das Testen und Anzeigen von Werten gibt es dort zusätzlich auch einen Knopf um den Debugger einzuschalten.
 	
-\end{comment}
