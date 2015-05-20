@@ -54,6 +54,4 @@ Nicht mehr als 3 Stufiges Inhaltsverzeichnis
 | Alexander Feldmann | Android Application |
 | Marc Huisinga, Kevin Neumeyer, Robin Bley | Bodenstation Software |
 
-## LaTeX
-
 
