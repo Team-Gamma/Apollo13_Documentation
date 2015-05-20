@@ -2,6 +2,11 @@
 
 Wir haben den CanSat in drei Komponenten aufgeteilt: Die Hülle, die Innenwand und die Sensorik Platine. Diese drei Komponenten bilden den Hauptbestandteil des CanSats und haben maßgeblich zu dem mechanischen und strukturellem Design beigetragen. Im nachfolgenden wird kurz auf jeden dieser Komponenten eingegangen und die exakte Funktion im Zusammenhang erklärt.
 
+\subsubsection {Fachliche Grundlage}
+Um die 3D gedruckte Wand zu erzeugen wurde die 3D Moddelierungssoftware \href{http://www.sketchup.com/de} {Sketchup} von Google verwendet. Sketchup bietet die Möglichkeit vergleichsweiße einfach 3D Modelle zu zeichnen. Um dies zu tun muss klar sein, welche Objekte gezeichnet werden sollen. Diese Objekte müssen vermessen und innerhalb von Sketchup gezeichnet werden. Dies erfordert die Kentniss über gewisse mathematische Methoden zur Berechnung von Kreisen, Flächen und Körpern. Die meisten 3D-Drucker benötigen Datein des Types .stl, welche in Sketchup mit einem Plugin erzeugt werden können.
+Zum fertigen von GFK Komponenten wird ein Körper benötigt, auf welchen das GFK laminiert werden kann. In unserem Fall ist dieser Körper zylindrisch, mit einem Durchmesser von 31,5 mm, und aus Aluminium gefräst. \\
+Um die Platine zu erstellen wurde die Design Software \href{http://www.cadsoft.de/eagle-pcb-design-software/} {Eagle PCB} verwendet. Eagle bietet die Möglichkeit sowohl Schaltpläne als auch das entsprechende Layout zu erstellen. Im Anschluss wurde die Platine, mit Hilfe und Mitteln des Hackerspace Bremen e.V. geätzt.
+
 \subsubsection{Die Hülle}
 Wir haben uns dazu entschieden, die äußere Hülle aus GFK (Glasfaser verstärkter Kunststoff) zu fertigen. Dieses hat die Eigenschaften, dass er bei einem sehr geringen Gewicht, und bei einer geringen Wandstärke trotzdem eine gewisse Stabilität aufweißt. Aus dem GFK haben wir eine Röhre mit einem Innendurchmesser von 31,5 mm und einem Außendurchmesser von 33,5 mm laminiert. Diese Röhre wurde auf eine Länge von 111 mm gekürzt und gefeilt. Um die Röhre oben und unten zu verschließen haben wir uns bei Thyssen Krupp System Engineering zwei Aluminium Deckel fräsen lassen. Diese haben uns ebenfalls durch ihr geringes Gewicht und ihre hohe Stabilität überzeugt.
 
@@ -21,9 +26,4 @@ Die Sensorik Platine ist eine von uns geätzte Platine, welche mit unseren Senso
 	\item Steckplatz zum Anschluss des Sharp Feinstaub Sensors: Misst den Anteil der Partikel, welche kleiner als 10 \textmu m sind
 	\item Steckplatz zum Anschluss an das Mikrokontrollerdboard: Bildet die Schnittstelle zwischen BeagleBone und Senorik Platine
 \end{itemize}
-
-\subsubsection {Fachliche Grundlage}
-Um die 3D gedruckte Wand zu erzeugen wurde die 3D Moddelierungssoftware \href{http://www.sketchup.com/de} {Sketchup} von Google verwendet. Sketchup bietet die Möglichkeit vergleichsweiße einfach 3D Modelle zu zeichnen. Um dies zu tun muss klar sein, welche Objekte gezeichnet werden sollen. Diese Objekte müssen vermessen und innerhalb von Sketchup gezeichnet werden. Dies erfordert die Kentniss über gewisse mathematische Methoden zur Berechnung von Kreisen, Flächen und Körpern. Die meisten 3D-Drucker benötigen Datein des Types .stl, welche in Sketchup mit einem Plugin erzeugt werden können.
-Zum fertigen von GFK Komponenten wird ein Körper benötigt, auf welchen das GFK laminiert werden kann. In unserem Fall ist dieser Körper zylindrisch, mit einem Durchmesser von 31,5 mm, und aus Aluminium gefräst. \\
-Um die Platine zu erstellen wurde die Design Software \href{http://www.cadsoft.de/eagle-pcb-design-software/} {Eagle PCB} verwendet. Eagle bietet die Möglichkeit sowohl Schaltpläne als auch das entsprechende Layout zu erstellen. Im Anschluss wurde die Platine, mit Hilfe und Mitteln des Hackerspace Bremen e.V. geätzt.
 
