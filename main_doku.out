@@ -45,38 +45,37 @@
 \BOOKMARK [4][-]{paragraph.3.2.2.5}{Daten exportieren}{subsubsection.3.2.2}% 45
 \BOOKMARK [4][-]{paragraph.3.2.2.6}{Daten mittels WLAN an Clients weiterleiten}{subsubsection.3.2.2}% 46
 \BOOKMARK [4][-]{paragraph.3.2.2.7}{Graphische Oberfl\344che personalisieren}{subsubsection.3.2.2}% 47
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Kosten-/Nutzenanalyse}{subsection.3.2}% 48
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Spezifische technische Beschreibungen}{subsection.3.2}% 49
-\BOOKMARK [3][-]{subsubsection.3.2.5}{Realisierung der Software}{subsection.3.2}% 50
-\BOOKMARK [2][-]{subsection.3.3}{Android Applikation}{section.3}% 51
-\BOOKMARK [3][-]{subsubsection.3.3.1}{App \334bersicht}{subsection.3.3}% 52
-\BOOKMARK [3][-]{subsubsection.3.3.2}{Plattform und Komponenten}{subsection.3.3}% 53
-\BOOKMARK [3][-]{subsubsection.3.3.3}{Funktionen}{subsection.3.3}% 54
-\BOOKMARK [3][-]{subsubsection.3.3.4}{Nutzeranleitung}{subsection.3.3}% 55
-\BOOKMARK [4][-]{paragraph.3.3.4.1}{Livegraph}{subsubsection.3.3.4}% 56
-\BOOKMARK [4][-]{paragraph.3.3.4.2}{Balkengraph}{subsubsection.3.3.4}% 57
-\BOOKMARK [4][-]{paragraph.3.3.4.3}{Optionen}{subsubsection.3.3.4}% 58
-\BOOKMARK [1][-]{section.4}{Projektplanung}{}% 59
-\BOOKMARK [2][-]{subsection.4.1}{Zeitplan der CanSat Vorbereitung}{section.4}% 60
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Zeitplan der Hardware Gruppe}{subsection.4.1}% 61
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Zeitplan der Software Gruppe}{subsection.4.1}% 62
-\BOOKMARK [2][-]{subsection.4.2}{Einsch\344tzung der Mittel}{section.4}% 63
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Budget}{subsection.4.2}% 64
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Externe Unterst\374tzung}{subsection.4.2}% 65
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Testkonzept}{subsection.4.2}% 66
-\BOOKMARK [1][-]{section.5}{\326ffentlichkeitsarbeit}{}% 67
-\BOOKMARK [2][-]{subsection.5.1}{Website}{section.5}% 68
-\BOOKMARK [2][-]{subsection.5.2}{Sch\374lerzeitung}{section.5}% 69
-\BOOKMARK [2][-]{subsection.5.3}{Pr\344sentationen}{section.5}% 70
-\BOOKMARK [2][-]{subsection.5.4}{Ausstellung am MINT-Projekttag unserer Schule}{section.5}% 71
-\BOOKMARK [2][-]{subsection.5.5}{Logo}{section.5}% 72
-\BOOKMARK [1][-]{section.6}{Anforderungen}{}% 73
-\BOOKMARK [1][-]{section.7}{Reflexion des Projektverlaufes}{}% 74
-\BOOKMARK [2][-]{subsection.7.1}{Reflexion der Hardwaregruppe}{section.7}% 75
-\BOOKMARK [2][-]{subsection.7.2}{Reflexion der Softwaregruppe}{section.7}% 76
-\BOOKMARK [2][-]{subsection.7.3}{Reflexion der Zusammenarbeit zwischen den Teams}{section.7}% 77
-\BOOKMARK [1][-]{section.8}{Anhang}{}% 78
-\BOOKMARK [2][-]{subsection.8.1}{GANTT-Diagramme}{section.8}% 79
-\BOOKMARK [3][-]{subsubsection.8.1.1}{Hardware-GANTT}{subsection.8.1}% 80
-\BOOKMARK [2][-]{subsection.8.2}{Der CanSat}{section.8}% 81
-\BOOKMARK [2][-]{subsection.8.3}{Bodenstationsarchitektur}{section.8}% 82
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Realisierung der Software}{subsection.3.2}% 48
+\BOOKMARK [2][-]{subsection.3.3}{Android Applikation}{section.3}% 49
+\BOOKMARK [3][-]{subsubsection.3.3.1}{App \334bersicht}{subsection.3.3}% 50
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Plattform und Komponenten}{subsection.3.3}% 51
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Funktionen}{subsection.3.3}% 52
+\BOOKMARK [3][-]{subsubsection.3.3.4}{Nutzeranleitung}{subsection.3.3}% 53
+\BOOKMARK [4][-]{paragraph.3.3.4.1}{Livegraph}{subsubsection.3.3.4}% 54
+\BOOKMARK [4][-]{paragraph.3.3.4.2}{Balkengraph}{subsubsection.3.3.4}% 55
+\BOOKMARK [4][-]{paragraph.3.3.4.3}{Optionen}{subsubsection.3.3.4}% 56
+\BOOKMARK [1][-]{section.4}{Projektplanung}{}% 57
+\BOOKMARK [2][-]{subsection.4.1}{Zeitplan der CanSat Vorbereitung}{section.4}% 58
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Zeitplan der Hardware Gruppe}{subsection.4.1}% 59
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Zeitplan der Software Gruppe}{subsection.4.1}% 60
+\BOOKMARK [2][-]{subsection.4.2}{Einsch\344tzung der Mittel}{section.4}% 61
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Budget}{subsection.4.2}% 62
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Externe Unterst\374tzung}{subsection.4.2}% 63
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Testkonzept}{subsection.4.2}% 64
+\BOOKMARK [1][-]{section.5}{\326ffentlichkeitsarbeit}{}% 65
+\BOOKMARK [2][-]{subsection.5.1}{Website}{section.5}% 66
+\BOOKMARK [2][-]{subsection.5.2}{Sch\374lerzeitung}{section.5}% 67
+\BOOKMARK [2][-]{subsection.5.3}{Pr\344sentationen}{section.5}% 68
+\BOOKMARK [2][-]{subsection.5.4}{Ausstellung am MINT-Projekttag unserer Schule}{section.5}% 69
+\BOOKMARK [2][-]{subsection.5.5}{Logo}{section.5}% 70
+\BOOKMARK [1][-]{section.6}{Anforderungen}{}% 71
+\BOOKMARK [1][-]{section.7}{Reflexion des Projektverlaufes}{}% 72
+\BOOKMARK [2][-]{subsection.7.1}{Reflexion der Hardwaregruppe}{section.7}% 73
+\BOOKMARK [2][-]{subsection.7.2}{Reflexion der Softwaregruppe}{section.7}% 74
+\BOOKMARK [2][-]{subsection.7.3}{Reflexion der Zusammenarbeit zwischen den Teams}{section.7}% 75
+\BOOKMARK [1][-]{section.8}{Anhang}{}% 76
+\BOOKMARK [2][-]{subsection.8.1}{Blockdiagramm}{section.8}% 77
+\BOOKMARK [2][-]{subsection.8.2}{GANTT-Diagramme}{section.8}% 78
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Hardware-GANTT}{subsection.8.2}% 79
+\BOOKMARK [2][-]{subsection.8.3}{Der CanSat}{section.8}% 80
+\BOOKMARK [2][-]{subsection.8.4}{Bodenstationsarchitektur}{section.8}% 81
