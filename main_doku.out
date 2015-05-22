@@ -18,64 +18,78 @@
 \BOOKMARK [4][-]{paragraph.2.3.1.3}{Analog-to-Digital-Converter}{subsubsection.2.3.1}% 18
 \BOOKMARK [4][-]{paragraph.2.3.1.4}{Universal-Asynchronous-Receiver-Transmitter}{subsubsection.2.3.1}% 19
 \BOOKMARK [4][-]{paragraph.2.3.1.5}{Inter-Integrated-Circuit}{subsubsection.2.3.1}% 20
-\BOOKMARK [3][-]{subsubsection.2.3.2}{Energieverbrauch}{subsection.2.3}% 21
-\BOOKMARK [2][-]{subsection.2.4}{Softwaredesign}{section.2}% 22
-\BOOKMARK [3][-]{subsubsection.2.4.1}{Python als Programmiersprache}{subsection.2.4}% 23
-\BOOKMARK [3][-]{subsubsection.2.4.2}{Datenverarbeitung auf dem Beaglebone}{subsection.2.4}% 24
-\BOOKMARK [2][-]{subsection.2.5}{Bergungssystem}{section.2}% 25
-\BOOKMARK [3][-]{subsubsection.2.5.1}{Bau}{subsection.2.5}% 26
-\BOOKMARK [3][-]{subsubsection.2.5.2}{Messungen}{subsection.2.5}% 27
-\BOOKMARK [2][-]{subsection.2.6}{Aufgetretene Probleme}{section.2}% 28
-\BOOKMARK [3][-]{subsubsection.2.6.1}{Testkonzept}{subsection.2.6}% 29
-\BOOKMARK [1][-]{section.3}{Beschreibung der Bodenstation}{}% 30
-\BOOKMARK [2][-]{subsection.3.1}{Desktop Applikation}{section.3}% 31
-\BOOKMARK [3][-]{subsubsection.3.1.1}{\334berblick}{subsection.3.1}% 32
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Verwendete Komponenten}{subsection.3.1}% 33
-\BOOKMARK [3][-]{subsubsection.3.1.3}{Funktionen}{subsection.3.1}% 34
-\BOOKMARK [4][-]{paragraph.3.1.3.1}{Nutzerfreundlichkeit}{subsubsection.3.1.3}% 35
-\BOOKMARK [4][-]{paragraph.3.1.3.2}{Erweiterbarkeit}{subsubsection.3.1.3}% 36
-\BOOKMARK [4][-]{paragraph.3.1.3.3}{Features}{subsubsection.3.1.3}% 37
-\BOOKMARK [3][-]{subsubsection.3.1.4}{Architektur}{subsection.3.1}% 38
-\BOOKMARK [3][-]{subsubsection.3.1.5}{Tests}{subsection.3.1}% 39
-\BOOKMARK [4][-]{paragraph.3.1.5.1}{Automatisierte Tests}{subsubsection.3.1.5}% 40
-\BOOKMARK [4][-]{paragraph.3.1.5.2}{Manuelle Tests}{subsubsection.3.1.5}% 41
-\BOOKMARK [3][-]{subsubsection.3.1.6}{Nutzeranleitung}{subsection.3.1}% 42
-\BOOKMARK [4][-]{paragraph.3.1.6.1}{Datenempfang}{subsubsection.3.1.6}% 43
-\BOOKMARK [4][-]{paragraph.3.1.6.2}{Datenimport}{subsubsection.3.1.6}% 44
-\BOOKMARK [4][-]{paragraph.3.1.6.3}{Graphenkonfiguration}{subsubsection.3.1.6}% 45
-\BOOKMARK [4][-]{paragraph.3.1.6.4}{Datenexport}{subsubsection.3.1.6}% 46
-\BOOKMARK [4][-]{paragraph.3.1.6.5}{Datenweiterleitung}{subsubsection.3.1.6}% 47
-\BOOKMARK [4][-]{paragraph.3.1.6.6}{Oberfl\344chenpersonalisierung}{subsubsection.3.1.6}% 48
-\BOOKMARK [3][-]{subsubsection.3.1.7}{Realisierung der Software}{subsection.3.1}% 49
-\BOOKMARK [2][-]{subsection.3.2}{Android Applikation}{section.3}% 50
-\BOOKMARK [3][-]{subsubsection.3.2.1}{App \334bersicht}{subsection.3.2}% 51
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Plattform und Komponenten}{subsection.3.2}% 52
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Funktionen}{subsection.3.2}% 53
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Nutzeranleitung}{subsection.3.2}% 54
-\BOOKMARK [4][-]{paragraph.3.2.4.1}{Livegraph}{subsubsection.3.2.4}% 55
-\BOOKMARK [4][-]{paragraph.3.2.4.2}{Balkengraph}{subsubsection.3.2.4}% 56
-\BOOKMARK [4][-]{paragraph.3.2.4.3}{Optionen}{subsubsection.3.2.4}% 57
-\BOOKMARK [1][-]{section.4}{Projektplanung}{}% 58
-\BOOKMARK [2][-]{subsection.4.1}{Zeitplan der CanSat Vorbereitung}{section.4}% 59
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Zeitplan der Hardware Gruppe}{subsection.4.1}% 60
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Zeitplan der Software Gruppe}{subsection.4.1}% 61
-\BOOKMARK [2][-]{subsection.4.2}{Einsch\344tzung der Mittel}{section.4}% 62
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Budget}{subsection.4.2}% 63
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Externe Unterst\374tzung}{subsection.4.2}% 64
-\BOOKMARK [1][-]{section.5}{\326ffentlichkeitsarbeit}{}% 65
-\BOOKMARK [2][-]{subsection.5.1}{Website}{section.5}% 66
-\BOOKMARK [2][-]{subsection.5.2}{Sch\374lerzeitung}{section.5}% 67
-\BOOKMARK [2][-]{subsection.5.3}{Pr\344sentationen}{section.5}% 68
-\BOOKMARK [2][-]{subsection.5.4}{Ausstellung am MINT-Projekttag unserer Schule}{section.5}% 69
-\BOOKMARK [2][-]{subsection.5.5}{Logo}{section.5}% 70
-\BOOKMARK [1][-]{section.6}{Anforderungen}{}% 71
-\BOOKMARK [1][-]{section.7}{Reflexion des Projektverlaufes}{}% 72
-\BOOKMARK [2][-]{subsection.7.1}{Reflexion der Hardwaregruppe}{section.7}% 73
-\BOOKMARK [2][-]{subsection.7.2}{Reflexion der Softwaregruppe}{section.7}% 74
-\BOOKMARK [2][-]{subsection.7.3}{Reflexion der Zusammenarbeit zwischen den Teams}{section.7}% 75
-\BOOKMARK [1][-]{section.8}{Anhang}{}% 76
-\BOOKMARK [2][-]{subsection.8.1}{Blockdiagramm}{section.8}% 77
-\BOOKMARK [2][-]{subsection.8.2}{GANTT-Diagramme}{section.8}% 78
-\BOOKMARK [3][-]{subsubsection.8.2.1}{Hardware-GANTT}{subsection.8.2}% 79
-\BOOKMARK [2][-]{subsection.8.3}{Der CanSat}{section.8}% 80
-\BOOKMARK [2][-]{subsection.8.4}{Bodenstationsarchitektur}{section.8}% 81
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Sensorik}{subsection.2.3}% 21
+\BOOKMARK [4][-]{paragraph.2.3.2.1}{ML8511 - UV Sensor}{subsubsection.2.3.2}% 22
+\BOOKMARK [4][-]{paragraph.2.3.2.2}{Sharp Feinstaubsensor}{subsubsection.2.3.2}% 23
+\BOOKMARK [4][-]{paragraph.2.3.2.3}{APC220}{subsubsection.2.3.2}% 24
+\BOOKMARK [4][-]{paragraph.2.3.2.4}{Ultimate GPS}{subsubsection.2.3.2}% 25
+\BOOKMARK [4][-]{paragraph.2.3.2.5}{TMP006}{subsubsection.2.3.2}% 26
+\BOOKMARK [4][-]{paragraph.2.3.2.6}{BMP180}{subsubsection.2.3.2}% 27
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Energieverbrauch}{subsection.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.4}{Softwaredesign}{section.2}% 29
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Python als Programmiersprache}{subsection.2.4}% 30
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Datenverarbeitung auf dem Beaglebone}{subsection.2.4}% 31
+\BOOKMARK [2][-]{subsection.2.5}{Bergungssystem}{section.2}% 32
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Bau}{subsection.2.5}% 33
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Messungen}{subsection.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.6}{Aufgetretene Probleme}{section.2}% 35
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Testkonzept}{subsection.2.6}% 36
+\BOOKMARK [1][-]{section.3}{Beschreibung der Bodenstation}{}% 37
+\BOOKMARK [2][-]{subsection.3.1}{Desktop Applikation}{section.3}% 38
+\BOOKMARK [3][-]{subsubsection.3.1.1}{\334berblick}{subsection.3.1}% 39
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Verwendete Komponenten}{subsection.3.1}% 40
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Funktionen}{subsection.3.1}% 41
+\BOOKMARK [4][-]{paragraph.3.1.3.1}{Nutzerfreundlichkeit}{subsubsection.3.1.3}% 42
+\BOOKMARK [4][-]{paragraph.3.1.3.2}{Erweiterbarkeit}{subsubsection.3.1.3}% 43
+\BOOKMARK [4][-]{paragraph.3.1.3.3}{Features}{subsubsection.3.1.3}% 44
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Architektur}{subsection.3.1}% 45
+\BOOKMARK [3][-]{subsubsection.3.1.5}{Tests}{subsection.3.1}% 46
+\BOOKMARK [4][-]{paragraph.3.1.5.1}{Automatisierte Tests}{subsubsection.3.1.5}% 47
+\BOOKMARK [4][-]{paragraph.3.1.5.2}{Manuelle Tests}{subsubsection.3.1.5}% 48
+\BOOKMARK [3][-]{subsubsection.3.1.6}{Nutzeranleitung}{subsection.3.1}% 49
+\BOOKMARK [4][-]{paragraph.3.1.6.1}{Datenempfang}{subsubsection.3.1.6}% 50
+\BOOKMARK [4][-]{paragraph.3.1.6.2}{Datenimport}{subsubsection.3.1.6}% 51
+\BOOKMARK [4][-]{paragraph.3.1.6.3}{Datenexport}{subsubsection.3.1.6}% 52
+\BOOKMARK [4][-]{paragraph.3.1.6.4}{Datenweiterleitung}{subsubsection.3.1.6}% 53
+\BOOKMARK [4][-]{paragraph.3.1.6.5}{Oberfl\344chenpersonalisierung}{subsubsection.3.1.6}% 54
+\BOOKMARK [4][-]{paragraph.3.1.6.6}{Kartenvisualisierung}{subsubsection.3.1.6}% 55
+\BOOKMARK [4][-]{paragraph.3.1.6.7}{Graphvisualisierung}{subsubsection.3.1.6}% 56
+\BOOKMARK [4][-]{paragraph.3.1.6.8}{Fenster zur\374cksetzten}{subsubsection.3.1.6}% 57
+\BOOKMARK [4][-]{paragraph.3.1.6.9}{Beenden des Programms}{subsubsection.3.1.6}% 58
+\BOOKMARK [3][-]{subsubsection.3.1.7}{Realisierung der Desktop-Software}{subsection.3.1}% 59
+\BOOKMARK [2][-]{subsection.3.2}{Android Applikation}{section.3}% 60
+\BOOKMARK [3][-]{subsubsection.3.2.1}{App \334bersicht}{subsection.3.2}% 61
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Plattform und Komponenten}{subsection.3.2}% 62
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Funktionen}{subsection.3.2}% 63
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Nutzeranleitung}{subsection.3.2}% 64
+\BOOKMARK [4][-]{paragraph.3.2.4.1}{Livegraph}{subsubsection.3.2.4}% 65
+\BOOKMARK [4][-]{paragraph.3.2.4.2}{Balkengraph}{subsubsection.3.2.4}% 66
+\BOOKMARK [4][-]{paragraph.3.2.4.3}{Optionen}{subsubsection.3.2.4}% 67
+\BOOKMARK [1][-]{section.4}{Projektplanung}{}% 68
+\BOOKMARK [2][-]{subsection.4.1}{Zeitplan der CanSat Vorbereitung}{section.4}% 69
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Zeitplan der Hardware Gruppe}{subsection.4.1}% 70
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Zeitplan der Software Gruppe}{subsection.4.1}% 71
+\BOOKMARK [2][-]{subsection.4.2}{Einsch\344tzung der Mittel}{section.4}% 72
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Budget}{subsection.4.2}% 73
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Externe Unterst\374tzung}{subsection.4.2}% 74
+\BOOKMARK [1][-]{section.5}{\326ffentlichkeitsarbeit}{}% 75
+\BOOKMARK [2][-]{subsection.5.1}{Website}{section.5}% 76
+\BOOKMARK [2][-]{subsection.5.2}{Sch\374lerzeitung}{section.5}% 77
+\BOOKMARK [2][-]{subsection.5.3}{Pr\344sentationen}{section.5}% 78
+\BOOKMARK [2][-]{subsection.5.4}{Ausstellung am MINT-Projekttag unserer Schule}{section.5}% 79
+\BOOKMARK [2][-]{subsection.5.5}{Logo}{section.5}% 80
+\BOOKMARK [1][-]{section.6}{Anforderungen}{}% 81
+\BOOKMARK [1][-]{section.7}{Reflexion des Projektverlaufes}{}% 82
+\BOOKMARK [2][-]{subsection.7.1}{Reflexion der Hardwaregruppe}{section.7}% 83
+\BOOKMARK [2][-]{subsection.7.2}{Reflexion der Softwaregruppe}{section.7}% 84
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Desktop Applikation}{subsection.7.2}% 85
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Android Applikation}{subsection.7.2}% 86
+\BOOKMARK [2][-]{subsection.7.3}{Reflexion der Zusammenarbeit zwischen den Teams}{section.7}% 87
+\BOOKMARK [1][-]{section.8}{Anhang}{}% 88
+\BOOKMARK [2][-]{subsection.8.1}{Einleitung}{section.8}% 89
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Blockdiagramm}{subsection.8.1}% 90
+\BOOKMARK [2][-]{subsection.8.2}{GANTT-Diagramme}{section.8}% 91
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Hardware-GANTT}{subsection.8.2}% 92
+\BOOKMARK [3][-]{subsubsection.8.2.2}{Bodenstation-GANTT}{subsection.8.2}% 93
+\BOOKMARK [2][-]{subsection.8.3}{Der CanSat}{section.8}% 94
+\BOOKMARK [2][-]{subsection.8.4}{Bodenstationsarchitektur}{section.8}% 95
