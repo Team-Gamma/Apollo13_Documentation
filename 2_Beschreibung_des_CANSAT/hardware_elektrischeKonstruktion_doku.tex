@@ -20,10 +20,10 @@ Unser CanSat besteht aus mehreren Sensoren und einem zentralen Verarbeitungssyst
 
 \subsubsection{Fachliche Grundlagen}
 \paragraph{Embedded System}
-Ein Embedded System ist in unserem Fall der BeagleBone mithilfe vom ARM Cortex-A6 mit 1Ghz, ist ein leich modifizierte linux kernel mit Frontend installiert, dass liebevoll Angstrom genannt wurde. Um ein paar andere Beispiele für ein eingebettetes System sind etwa ein Smart TV oder ein Router, beide haben eine Art eingebettetes System, dass immer öfter auf dem Linux Kernel basiert und je nach Anwendung angepasst wurde. In unserem Fall unterstützt das BeagleBone verschiedene Technologien zum empfangen von Daten verschiedener Bauteile, wie etwa UART, I-2-C, SPI, Analog, Digital, PWM, Timer und PRU. Viele dieser Technologien sind in unserem Projekt nicht in Verwendung alle anderen Grundlagen sind unten beschrieben.
+Ein Embedded System ist in unserem Fall der BeagleBone mithilfe vom ARM Cortex-A6 mit 1Ghz, ist ein leicht modifizierter linux kernel mit Frontend installiert, dass liebevoll Angstrom genannt wurde. Andere Beispiele für ein eingebettetes System sind etwa ein Smart TV oder ein Router, beide besitzen eine Main Control Unit, mit einem Betriebssystem welches auf die Anwendung des Gerätes spezialisiert ist. In unserem Fall der BeagleBone welcher verschiedene Technologien besitzt um mit einzelnen Bauteilen zu kommunizieren. UART, I-2-C, SPI, Analog, Digital, PWM, Timer, PRU, ADC, DAC und viele mehr. Viele dieser Technologien sind in unserem Projekt nicht in Verwendung alle anderen Grundlagen sind unten beschrieben.
 
 \paragraph{Transistor-Transistor-Logik}
-5V werden immer als logische 1 bezeichnet, damit ist gemeint wenn der Sensor den höchsten Messwert erreicht gibt er eine Spannung von 5V. Ist dies nicht der Fall hat der Sensor eine andere Kennkurve die zum Beispiel bei 3.3V aufhört. Allgemein wird aber Transistor-Transistor-Logik genutzt, welche 5V als logische 1 und geerdet als logische 0 ansieht, es gibt natürlich Toleranzen, diese sind aber bei verschiedenen integrierte Schaltkreisen und Mikrokontrollern unterschiedlich.
+5V werden immer als logisch ein bezeichnet, damit ist gemeint wenn der Sensor den höchsten Messwert erreicht gibt er eine Spannung von 5V. Ist dies nicht der Fall hat der Sensor eine andere Kennkurve die zum Beispiel bei 3.3V aufhört. Allgemein wird aber Transistor-Transistor-Logik genutzt, welche 5V als logisch ein und geerdet als logisch aus ansieht, es gibt natürlich Toleranzen, diese sind aber bei verschiedenen integrierte Schaltkreisen und Mikrokontrollern unterschiedlich.
 
 \paragraph{Analog-to-Digital-Converter}
 Andere Sensoren wie der UV-Sensor die nur über einen internen Wiederstand verfügen der sich, je nach Konzentration, an einer mathematischen Kurve orientierend, im Wert leicht verändert und dadurch die ankommende Spannung am jeweiligen Analog Pin ändert. Mithilfe eines Analog-to-Digital-Converter konvertieren wir das analoge Signal, zum Beispiel 5V, in das äquivalente digitale Signal mit der Auflösung von 12 Bits. \\
@@ -51,7 +51,7 @@ Das bedeutet jeder 0.001220703125V kann dargestellt werden, wobei der Arduino Me
 Das BeagleBone kann den Wert der am analogen Pin ankommt viel genauer darstellen, als der Ardunio. 
 
 \paragraph{Universal-Asynchronous-Receiver-Transmitter}
-UART ist eine digitale serielle Schnittstelle zum realisieren von einfachen Kommunikationen zwischen zwei Endpunkten, die Funktionsweise ist denkbar einfach. Wir nutzen in unserem Satelliten meist eine Baudrate von 9600bps, Baud ist die Schrittgeschwindigkeit oder Symbolrate, also 9600 bits per second. Für UART gibt es wie beim RJ45 Stecker TX und RX, die beim Aufbau einer Kommunikation gekreuzt werden. Transciever und Reciever. Nun wird zwischen vielen verschiedenen Arten von UART unterschieden in unserem Fall die TTL-UART Variante welche die beim Analog-to-Digital-Converter genannten 5V als logische 1 bezeichnen. \\
+UART ist eine digitale serielle Schnittstelle zum realisieren von einfachen Kommunikationen zwischen zwei Endpunkten, die Funktionsweise ist denkbar einfach. Wir nutzen in unserem Satelliten meist eine Baudrate von 9600bps, Baud ist die Schrittgeschwindigkeit oder Symbolrate, also 9600 bits per second. Für UART gibt es wie beim RJ45 Stecker TX und RX, die beim Aufbau einer Kommunikation gekreuzt werden. Transciever und Reciever. Nun wird zwischen vielen verschiedenen Arten von UART unterschieden in unserem Fall die TTL-UART Variante welche die beim Analog-to-Digital-Converter genannten 5V als logisch ein bezeichnen. \\
 
 \paragraph{Inter-Integrated-Circuit}
 I-2-C ist ein serieller Datenbus der über zwei Kabel mit einer 10-Bit-Adressierung, 1024 IC's steuern kann mit einer maximalen Geschwindigkeit 5 Mbit/s. Der Sinn des Bussystems ist es mithilfe von einer Adressen einen Datensatz oder Befehl nur an den gewünschten Empfänger zu senden, obwohl nur eine Datenleitung genutzt wird, eine Art Master/Slave System. Der Master sagt wer wann zu sprechen hat und welche Befehle von wem zu empfangen sind.
@@ -69,7 +69,7 @@ Der UV Sensor bietet im inneren nicht viel, eine Fotodiode welche auf UV-A und U
 
 
 \paragraph{Sharp Feinstaubsensor}
-Der Sharp Feisensor arbeite, wie der ML8511, sehr simpel. Im inneren befindet sich eine Infarot Diode welche die Partikel anstrahlt, auf der anderen Seite befindet sich ein Fototransistor welcher dann feststellt wieviel von diesem Licht von Partikeln reflektiert wird, diese Veränderung ist messbar.
+Der Sharp Feinstaubsensor arbeite, wie der ML8511, sehr simpel. Im inneren befindet sich eine Infarot Diode welche die Partikel anstrahlt, auf der anderen Seite befindet sich ein Fototransistor welcher dann feststellt wieviel von diesem Licht von Partikeln reflektiert wird, diese Veränderung ist messbar.
 
 \begin{figure}[h]
 	\centering
@@ -78,7 +78,7 @@ Der Sharp Feisensor arbeite, wie der ML8511, sehr simpel. Im inneren befindet si
 	\label{graph photodiode}
 \end{figure}
 
-Um den Fototransistor nicht immer ganz zu bestrahlen, ist die Infarot Diode nicht die gesamte Zeit angeschaltet sonder nur einen Bruchteil einer Sekunde, die Messung muss inerhalb dieser Zeitspanne passieren.
+Um den Fototransistor nicht immer ganz zu bestrahlen, ist die Infarot Diode nicht die gesamte Zeit angeschaltet sondern nur einen Bruchteil einer Sekunde, die Messung muss inerhalb dieser Zeitspanne passieren.
 
 \paragraph{APC220}
 Der APC220, ist ein Transciever welcher entweder senden oder empfangen kann. Der BeagleBone Black schickt den formatierten JSON String per UART an den APC220, dieser schickt ihn über die vorher am Computer festgelegte Frequenz in den Raum weiter. Am Boden befindet sich ebenfalls ein APC220, welcher die Daten empfängt.
@@ -115,7 +115,7 @@ Der TMP006 ist ein Infarot Temparatur Sensor, welcher die Temperatur von einem O
 	\label{sensor fov}
 \end{figure}
 
-Die Messung kann sehr ungenau werden da je nach Aussentemperatur und Temperatur der Sensorfläche selber Fehler beim Messen enstehen können.
+Die Messung kann sehr ungenau werden da, je nach Aussentemperatur und Temperatur der Sensorfläche selber, Fehler beim Messen enstehen können.
 
 \paragraph{BMP180}
 Der BMP180 ist ein Drucksensor welcher mithilfe einer Membran den Druck misst und per On-Board Controller diesen direkt in die Höhe umrechnet. Der Sensor sendet die Daten dann per I²C-Bus an uns weiter.
