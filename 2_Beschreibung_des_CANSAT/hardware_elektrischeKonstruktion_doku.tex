@@ -80,13 +80,6 @@ Der Sharp Feisensor arbeite, wie der ML8511, sehr simpel. Im inneren befindet si
 
 Um den Fototransistor nicht immer ganz zu bestrahlen, ist die Infarot Diode nicht die gesamte Zeit angeschaltet sonder nur einen Bruchteil einer Sekunde, die Messung muss inerhalb dieser Zeitspanne passieren.
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.5]{2_Beschreibung_des_CANSAT/graph_output_sampling.png}
-	\caption{Zeitspanne einer Messung}
-	\label{sampling}
-\end{figure}
-
 \paragraph{APC220}
 Der APC220, ist ein Transciever welcher entweder senden oder empfangen kann. Der BeagleBone Black schickt den formatierten JSON String per UART an den APC220, dieser schickt ihn über die vorher am Computer festgelegte Frequenz in den Raum weiter. Am Boden befindet sich ebenfalls ein APC220, welcher die Daten empfängt.
 
