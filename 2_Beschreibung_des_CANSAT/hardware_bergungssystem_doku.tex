@@ -1,30 +1,23 @@
 \subsection{Bergungssystem}
-Für unseren Ladensystem haben wir uns entschieden unseren eigenen Fallschirm zu bauen. Die Hauptaufgabe ist es, was einen Fallschirm ausmacht, eine weiche Landung auf dem Boden. Die Vorgaben waren, das der Fallschirm und die Dose eine Fallgeschwindigkeit von 15 Meter/Sekunde haben soll. Unsere Testfallschirme, die wir auch schon im Vorjahr genutzt haben, waren für eine deutlich geringer Fallgeschwindigkeit ausgelegt. Dieses Jahr wollen wir in CanSat 2015 eine neue Art eines Fallschirms testen. Unser Idee war das wir die normalen 8 Schnüre zum Befestigen des Fallschirms mit der Dose mit sehr Luft durchlässigen Stoff ersetzt. Wir erhoffen uns dadurch eine stabilere Lage in der Luft und ein fortschrittlicheres Designe.
+Für unseren Landesystem haben wir uns entschieden unseren eigenen Fallschirm zu bauen. Die Hauptaufgabe ist es, eine weiche Landung auf dem Boden zu garantieren. Die Vorgabe war, dass der Fallschirm und die Dose eine Fallgeschwindigkeit von 15 Meter/Sekunde haben sollen. Unsere Testfallschirme, die wir auch schon im Vorjahr genutzt haben, waren für eine deutlich geringer Fallgeschwindigkeit ausgelegt. Dieses Jahr wollen wir eine neue Fallschirmart testen. Die Idee dabei ist, dass die acht Schnüre, welche den Fallschirm an der Dose befestigt, mit sehr luftdurchlässigen Stoff, sogenannter Gaze, ersetzt werden. Wir erhoffen uns dadurch eine stabilere Lage in der Luft und ein fortschrittlicheres Designe.
 
 \subsubsection{Berechnungen}
-Für den Bau des Fallschirm wissen wir bereits, das dieser v = 15m/s fallen soll. Außerdem haben wir einen bereits berechneten Strömungswiderstandskoeffizient-Wert (Cw) von 1,33 haben. Für die berechnung des Falschirms haben wir folgende Formel gebraucht:
+Für den Bau des Fallschirm wissen wir bereits, das dieser mit v = 15m/s fallen soll. Außerdem haben wir einen bereits berechneten Strömungswiderstandskoeffizient (Cw) von 1,33. Für die Berechnung des Fallschirms wurde folgende Formel verwendet:
 \[
 Fw = Cw*\frac{1}{2}*roh*v²*A
 \]
-Fw ist der Strömungswiderstandskraft. Dieser kann ermittelt werden, in dem man die Fallwiederstandskarft einsetzt.
+Fw ist die Strömungswiderstandskraft. Diese kann ermittelt werden, indem man die Fallwiederstandskarft einsetzt.
 \[
 Fw = m * g = 250g * 9,81\frac{m}{s²} = 2,4525\frac{m}{s²}*Kg
 \]
-Nun kann man durch einsetzten in die erste Formel diese nach A umstellen, um die Größe des Fallschirms zu berechnen.
+Um die Größe des Fallschirms zu berechnen, kann man nun durch Einsetzten in die erste Formel diese nach A umstellen.
 \[
 A=\frac{2*2,4525\frac{m}{s²}*Kg}{Cw*Roh*v²}
 \]
 \[
 A=\frac{2*2,4525\frac{m}{s²}*Kg}{1,33*1,2\frac{Kg}{m³}*15²\frac{m²}{s²}} = 0,01365m² \text{ oder } 136,5cm²
 \]
-Einer Fläche von 136,5 cm² entspricht einen Durchmesser von ca. 34 cm.
+Eine Fläche von 136,5 cm² entspricht einem Durchmesser von ca. 34 cm.
 
 \subsubsection{Bau}
-Beim Bau der Fallschirme haben wir den Stoff von Regenschirmen bedient. Diese sind bereits in einer Art Halbkugelform mit acht aneinandergefügten Panels. Dieser Stoff hat genug widerstand um den Belastung eines CanSat stand zu halten und ist sogar regendicht. Zuerst muss das Gestellt vorsichtig vom Stoff herunter geschnitten werden. Danach muss in der Mitte des Stoff, wo alle 8 Kanten aufeinander Treffen ein rund 5 cm großes Loch geschnitten werden. Dort kann die gestauchte Luft leicht entweichen, satt am Rand unkontrolliert austitt und den Fallschirm + CanSat in gefährliche Turbulenzen zu geraten. Nun kann der Fallschirm-Rohling in die entsprechende Größe zugeschnitten werden. Am Rand des Fallschirms sollte ein zusätzlicher ca. 1 cm Rand gelassen werden, der in den Fallschirm umgeklappt wird. Dieser muss mit einer Nähmaschine, auf dem Fallschirm, fest genäht werden. Dies dient dazu, die Struktur des Randes, durch Falten in den Innenbereichs besser zu schützen. Am Rand befindet sich die höchste Wahrscheinlichkeit das durch eine kleine Kerbe ein kompletter Riss entstehen könnte. Nun kann auf dieser Grundlage die sehr Luftdurchlässigen Stoff drauf genäht werden. Beachtet werden sollte zusätzlich, das beim Übergang von Fallschirm und Dose am Befestigungspunkt eine hohe Belastung auf titt. An diesem Punkt hat die Gaze einen gewaltigen Nachteil gegenüber der Schnüre. Hier kann es durch einmalige starke Belastung zum Riss kommen, der sich im Laufe des Fluges weiter ausbreiten kann. So haben wir dort eine Verstärkung mit einem sehr Reißfestemmaterial eingenäht, der die Spannung erst kompensiert und diese gut verteilt auf die Gaze verteilt.
-
-\subsubsection{Ungeeignete Gaze}
-Leider ist in unser bei Bauphase aufgefallen, das die Gaze nicht widerstandsfähig genug ist. Bei unserem ersten Versuch mit dem großen 60 cm Fallschirm, haben wir bemerkt, das die Gaze schon hier schnell an ihre Grenzen gekommen ist. Bei den noch kleineren Fallschirmen, würde durch noch weniger Aufteilung der Belastung diese bei schon geringer Belastung, diese reißen. Daher mussten wir uns gezwungen der Massen die Schnüre abermals verwenden.
-
-\subsubsection{Zusätzliche Messungen}
-Ebenfalls hatten wir ein Problem mit der gegeben Formel. Der genutzte Cw-Wert hat einen Formfaktor, der unseren Fallschirmen nicht entsprach. Somit haben wir beschlossen einige Test durchzuführen. Diese sind aber nicht rein optischer Natur, sonder wir haben diesen mit einem Newtonmeter gemessen. Dafür haben wir den Fallschirm aus einem Auto mit einer Geschwindigkeit von 50 km/h aus dem Fahrzeug gehalten. Aus der Geschwindigkeit und dem Widerstand des Newtonmeter konnten ermittelt werden, das der Fallschirm nicht 34 cm Durchmesser haben sollte, sonder 31 cm. Bei einem Fallschirm dieser Größe sind schon 3 cm ein starker anstieg der Fallgeschwindigkeit.
-
+Beim Bau der Fallschirme haben wir den Stoff von Regenschirmen verwendet. Dieser Stoff ist bereits in einer Art Halbkugelform mit acht aneinandergefügten Panels. Er hat genug Widerstand um den Belastung des Fluges stand zu halten und ist sogar regendicht. Zuerst muss das Gestell vorsichtig vom Stoff herunter geschnitten werden. Danach muss in der Mitte des Stoff, wo alle acht Kanten aufeinander Treffen, ein rund 5 cm großes Loch geschnitten werden. Dort kann die gestauchte Luft leicht entweichen, statt am Rand unkontrolliert auszutreten. Würde sie dies tun, so könnte es leicht zu gefährlichen Turbulenzen kommen. Nun kann der Fallschirm in die entsprechende Größe zugeschnitten werden. Am Rand des Fallschirms sollte ein zusätzlicher ca. 1 cm Rand gelassen werden, der in den Fallschirm umgeklappt wird. Dieser muss mit einer Nähmaschine, auf dem Fallschirm, fest genäht werden. Dies dient dazu, die Struktur des Randes besser zu schützen. Am Rand befindet sich die höchste Wahrscheinlichkeit das durch eine kleine Kerbe ein kompletter Riss entstehen könnte. Nun kann auf diese Grundlage die Gaze genäht werden. Beachtet werden sollte zusätzlich, das beim Übergang von Fallschirm und Dose am Befestigungspunkt eine hohe Belastung auftritt. An diesem Punkt hat die Gaze einen gewaltigen Nachteil gegenüber der Schnüre. Hier kann es durch eine einmalige starke Belastung zum Riss kommen, der sich im Laufe des Fluges weiter ausbreiten kann. Daher wurde dort eine Verstärkung mit einem sehr rissfestem Material eingenäht, der die Spannung erst kompensiert und diese dann gut auf die Gaze verteilt.
