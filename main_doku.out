@@ -10,7 +10,7 @@
 \BOOKMARK [3][-]{subsubsection.2.2.1}{Fachliche Grundlagen}{subsection.2.2}% 10
 \BOOKMARK [3][-]{subsubsection.2.2.2}{H\374lle}{subsection.2.2}% 11
 \BOOKMARK [3][-]{subsubsection.2.2.3}{Innenwand}{subsection.2.2}% 12
-\BOOKMARK [3][-]{subsubsection.2.2.4}{Sensorik-Platine}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Sensorikplatine}{subsection.2.2}% 13
 \BOOKMARK [2][-]{subsection.2.3}{Elektrische Konstruktion}{section.2}% 14
 \BOOKMARK [3][-]{subsubsection.2.3.1}{Fachliche Grundlagen}{subsection.2.3}% 15
 \BOOKMARK [4][-]{paragraph.2.3.1.1}{Embedded System}{subsubsection.2.3.1}% 16
@@ -19,8 +19,8 @@
 \BOOKMARK [4][-]{paragraph.2.3.1.4}{Universal-Asynchronous-Receiver-Transmitter}{subsubsection.2.3.1}% 19
 \BOOKMARK [4][-]{paragraph.2.3.1.5}{Inter-Integrated-Circuit}{subsubsection.2.3.1}% 20
 \BOOKMARK [3][-]{subsubsection.2.3.2}{Sensorik}{subsection.2.3}% 21
-\BOOKMARK [4][-]{paragraph.2.3.2.1}{ML8511 - UV Sensor}{subsubsection.2.3.2}% 22
-\BOOKMARK [4][-]{paragraph.2.3.2.2}{Sharp Feinstaubsensor}{subsubsection.2.3.2}% 23
+\BOOKMARK [4][-]{paragraph.2.3.2.1}{ML8511 - UV-Sensor}{subsubsection.2.3.2}% 22
+\BOOKMARK [4][-]{paragraph.2.3.2.2}{Sharp-Feinstaubsensor}{subsubsection.2.3.2}% 23
 \BOOKMARK [4][-]{paragraph.2.3.2.3}{APC220}{subsubsection.2.3.2}% 24
 \BOOKMARK [4][-]{paragraph.2.3.2.4}{Ultimate GPS}{subsubsection.2.3.2}% 25
 \BOOKMARK [4][-]{paragraph.2.3.2.5}{TMP006}{subsubsection.2.3.2}% 26
@@ -28,7 +28,7 @@
 \BOOKMARK [3][-]{subsubsection.2.3.3}{Energieverbrauch}{subsection.2.3}% 28
 \BOOKMARK [2][-]{subsection.2.4}{Softwaredesign}{section.2}% 29
 \BOOKMARK [3][-]{subsubsection.2.4.1}{Python als Programmiersprache}{subsection.2.4}% 30
-\BOOKMARK [3][-]{subsubsection.2.4.2}{Datenverarbeitung auf dem Beaglebone}{subsection.2.4}% 31
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Datenverarbeitung auf dem BeagleBone}{subsection.2.4}% 31
 \BOOKMARK [2][-]{subsection.2.5}{Bergungssystem}{section.2}% 32
 \BOOKMARK [3][-]{subsubsection.2.5.1}{Berechnungen}{subsection.2.5}% 33
 \BOOKMARK [3][-]{subsubsection.2.5.2}{Bau}{subsection.2.5}% 34
