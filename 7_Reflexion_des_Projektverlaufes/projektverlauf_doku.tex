@@ -16,6 +16,18 @@ Die Kommunikation zwischen den Teammitgliedern, welche an der Bodenstation gearb
 
 Insgesamt hat die Bodenstation einige interessante Features, erscheint jedoch unfertig. Für die Nutzung mit unserem eigenen Satelliten ist die Bodenstation wohl ausreichend, obwohl einige ursprüngliche Features nach wie vor keine richtige grafische Anbindung haben.
 
+Wir sind der Meinung, dass wir die Bodenstation ohne Probleme bis zum CanSat-Wettbewerb vollständig fertigstellen können und den Programmcode bis zu diesem Termin ebenfalls aufräumen können. \\
+Folgende Dinge sind noch bis zum CanSat-Wettbewerb geplant:
+\begin{itemize}
+	\item GUI-Auswahldialog zur Auswahl der Logging-Quelle
+	\item Autoscroll-Option für scrollbare Visualisierungskomponenten
+	\item Graphische Verbesserung des Manage-Dialogs
+	\item Konfiguration der Datenquelle über ``Add''-Dialog, nicht über ``Manage''-Dialog
+	\item Ausführliches Testen der Applikation und Beheben aller überbleibenden Threading-Exceptions
+	\item Ausführliches Testen der Datenverbindung zum Satelliten
+	\item Aufräumen des Programmcodes
+\end{itemize}
+
 \subsubsection{Android-Applikation}
 Das Arbeiten an der Android Applikation war von Anfang an ein schwieriges Unterfangen. Es war für uns nicht einfach, sich in das Android Framework einzuarbeiten. Am Anfang entstanden häufig Komplikationen, wenn GUI-Komponenten erzeugt oder geupdated werden sollten. Eines der größten Probleme war der Umgang mit Threads. Der Debug-Stream-Thread hat beispielsweise durch seine schlechte Struktur während der Laufzeit auf eine Liste zugegriffen. Da auch ein ActionLisener auf diese Liste zugegriffen, hat gab es häufig Konflikte und Threading-Probleme. Die Chance, dass dies funktioniert, oder die App abstürzt, stand bei etwa 50 Prozent. Dies war ein herber Rückschlag, da die Struktur dadurch umgeschrieben werden musste. Zurzeit ist das Problem besser unter Kontrolle, jedoch noch nicht ganz behoben. Das primäre Ziel war es, zuerst alle Anforderungen zu erfüllen und erst im Nachhinein solche Fehler zu beheben. Im weiteren Verlauf der Entwicklung gab es diverse kleinere Probleme, die jedoch alle nicht dramatisch waren. Wir konnten insgesamt viel über die App-Entwicklung lernen.
 
