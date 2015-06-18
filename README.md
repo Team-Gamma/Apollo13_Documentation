@@ -5,7 +5,13 @@ Dieses Repository dient der Unterbringung unserer Dokumentation unseres neuen Sa
 ## Styling Guides
 Nicht mehr als 3 Stufiges Inhaltsverzeichnis
 
-## Aufbau
+## Aufbau der Dokumentation
+1. Kurzbericht
+2. Aufgabenstellung
+3. Detailierter Status Bericht
+4. Design Dokument
+
+## Aufbau des Design Dokumentes
 1. Einleitung (2-3 Seiten)
   1. Teamorganisation und Aufgabenverteilung
      1. Stärken des Teams
