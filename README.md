@@ -2,9 +2,6 @@
 ## Einleitung
 Dieses Repository dient der Unterbringung unserer Dokumentation unseres neuen Satelliten Apollo 13, welcher sich hauptsächlich auf die Messung von Feinstaub konzentriert. Der Satellite wird beim deutschen CanSat Wettbewerb 2015 antretten, mehr Infos über den Wettbewerb unter [CanSat DE](http://www.cansat.de/) und zu unserem Team unter [Gamma Team](http://www.gamma-team.de/).
 
-## Styling Guides
-Nicht mehr als 3 Stufiges Inhaltsverzeichnis
-
 ## Aufbau der Dokumentation
 1. Kurzbericht
 2. Aufgabenstellung
