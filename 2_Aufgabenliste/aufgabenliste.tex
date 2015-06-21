@@ -47,37 +47,56 @@
 \end{table}%
 
 \subsection{Aufgabenliste Software}
-\begin{tabular}{p{3cm}p{7cm}p{3cm}rrr}
-\hline
-  \textbf{} & \textbf{Erledigt} & \textbf{in Bearbeitung} \\ \hline
-  Oberfläche & Verwaltung von Satelliten implementieren & Option zum Auswählen der Location des Log-Files  \\ 
-  & Menüs für die Handhabung von Features erstellen &  \\
-  & Icons zum starten und stoppen von Verbindungen zwischen Clients oder Satelliten implementieren & \\ \hline
-  Visualisierung & Graphvisualisierung & Autoscoroll für Visualisierungskomponenten \\
-  & Kartenvisualisierung & Bugs der Kartenvisualisierung beheben \\
-  & Tabellenvisualisierung & \\ \hline
-  Datenimport & CSV-Dateien & \\
-  & JSON-Dateien & \\ \hline
-  Datenexport & KML-Format & Fehler des KML-Exports beheben \\
-  & TXT-Format & \\
-  & CSV-Format & \\
-  & JSON-Format & \\
-  & Logging der empfangenen Daten implementieren & \\ \hline
-  Datenverarbeitung & USB-Schnittstelle implementieren &  \\ 
-  & Input-Pipeline implementieren & \\ \hline
-  Automatisierte Tests & Datenexport & Funkverbindung zum CanSat \\
-  & Datenimport & \\
-  & Input-Pipeline & initialisierung der Datenquellen anpassen \\
-  & Netzwerkverbindung zum Smartphone & \\ \hline
-  Zusammenführen der Komponenten & Oberfläche mit Exportern verbinden & Verbindung zwischen Oberfläche und CSV-Export anpassen \\ 
-  & Oberfläche mit Importern verbinden & \\
-  & Oberfläche mit Input-Pipeline verbinden & \\
-  & Oberfläche mit Visualisierungen verbinden & \\ \hline
-  Allgemeine Anpassungen & Dokumentation der Software & überarbeitung der Code-Dokumentation \\
-  & Planen der Software & \\
-  & Gesamte Modulstuktur überarbeiten &\\
-  & interne Datentypen angepassen & \\
-  & Branding erstellen & \\
-  & Interfaces erstellen für Komponenten & \\
-  & Ausgibige Recherche über Netbeans Plattform & \\
+\begin{table}[H]
+  \centering
+    \begin{tabular}{p{3cm}p{7cm}p{3cm}rrr}
+    \toprule
+    \textbf{Aufgabe} & \textbf{Unteraufgabe} & \textbf{Status} \\
+	\midrule
+	Oberfläche & Verwaltung von Satelliten implementieren & abgeschlossen \\
+	& Menüs für die Handhabung von Featueres implementieren & abgeschlossen\\
+	& Option zum Auswählen der Location des Log-Files erstellen & in Bearbeitung\\
+	& Icons zum starten und stoppen von Verbindung zwischen Clients oder Satelliten implementieren & abgeschlossen \\	
+	\midrule
+	Visualisierungen & Graph-Visualisierung & abgeschlossen \\
+	& Karten-Visualisierung & abgeschlossen \\
+	& Tabellen-Visualisierung & abgeschlossen \\
+	\midrule
+	Datenexport & Export für Daten im JSON-Format implementieren & abgeschlossen \\
+	& Export für Daten im CSV-Format implementieren & abgeschlossen \\
+	& Export für Daten im Formatierten TXT-Format implementieren & abgeschlossen \\
+	& Export für Daten im KML-Format implementieren & abgeschlossen \\
+	& Daten-Logger für das JSON-Format implementieren\\
+	\midrule
+	Datenimport & Daten aus CSV-Dateien importieren & abgeschlossen \\
+	& Daten aus JSON-Dateien importieren & abgeschlossen \\
+	\midrule
+	Datenverarbeitung & USB-Schnitstelle implementieren & abgeschlossen \\
+	& Input-Pipeline implementieren & abgeschlossen \\
+	\midrule
+	Tests & Automatisierte Tests für alle Exporter implementieren & abgeschlossen \\
+	& Automatisierte Test für alle Importer implementieren & abgeschlossen \\
+	& Automatisierten Test für Input-Pipeline implementieren & abgeschlossen \\
+	& Testen der Netzwerkverbindung zwischen Bodenstation und Clients & abgeschlossen \\
+	& Testen der Verbindung zwischen Bodenstation und CanSat & in Bearbeitung \\
+	\midrule
+	Komponenten verwalten & Exporter in Input-Pipeline einbinden & abgeschlossen \\
+	& Importer in Input-Pipeline einbinden & abgeschlossen \\
+	& Visualisierungen in Input-Pipeline einbinden & abgeschlossen \\
+	& Oberfläche mit Input-Pipeline verbinden & abgeschlossen \\
+	\midrule
+	Anpassungen & Verbindung zwischen KML-Visualisierung und Oberfläche überarbeiten & in Bearbeitung \\
+	& Ausstattung der Graphvisualisierung mit Autoscroll & in Bearbeitung \\
+	& Karten-Visualisierung überarbeiten & in Bearbeitung \\
+	& Datenquelleninitialisierung der Input-Pipeline überarbeiten & in Bearbeitung \\
+	& Quellcode-Dokumentation anpassen & in Bearbeitung \\
+	& Umstrukturierung der Software-Architektur anpassen & abgeschlossen \\
+	& Intern verwendete Datentypen anpassen & abgeschlossen \\
+	\midrule
+	Allgemeines & Planung der Software & abgeschlossen \\
+	& Dokumentation der Software & abgeschlossen \\
+    & Branding erstellen & abgeschlossen \\
+    & Interfaces für Komponenten erstellen & abgeschlossen \\
+    & Ausgibige Recherche über Netbeans Plattform & abgeschlossen \\
  \end{tabular}
+ \end{table}
