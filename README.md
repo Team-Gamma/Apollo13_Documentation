@@ -23,19 +23,15 @@ Dieses Repository dient der Unterbringung unserer Dokumentation unseres neuen Sa
   5. Bergungssystem
   6. Testkonzept
   7. Aufgetretene Probleme
-3. Beschreibung der Bodenstation (10 Seiten)
+3. Beschreibung der Bodenstation (4 Seiten)
   1. Überblick
-  2. Verwendete Komponenten
-  3. Funktionen
-    1. Nutzerfreundlichkeit
-    2. Erweiterbarkeit
-    3. Featueres
-  4. Architektur
-  5. Tests
-  6. Nutzeranleitung
-  7. Kosten-/Nutzenanalyse
-  8. Spezifische technische Beschreibungen
-  9. Realisierung
+  2. Bodenstation
+      1. Kurzbeschreibung
+      2. Funktionen
+      3. Nutzerfreundlichkeit
+  3. Android-Applikation
+      1. Kurzbeschreibung
+      2. Funktionen
 4. Projektplanung (3-4 Seiten)
   1. Zeitplan der CanSat Vorbereitung
   2. Einschätzung der Mittel
