@@ -28,4 +28,6 @@ Die Sensorikplatine ist eine von uns geätzte Platine, welche mit unseren Sensor
 \end{itemize}
 
 \subsubsection{Batteriehalterung}
-Für die Befestigung der Stromversorgung wurde eine Halterung gedruckt. Diese Halterung wurde so präpariert, dass diese in die unbelegten Pin-Ports des BeagleBone angebracht werden kann. Eine Batteriehalterung ist auf dieser Halterung angebracht, welche dazu ausgelegt zwei Mignon-AA-Batterien zu fassen.  
+Als Stromversorgung wurden zwei Mignon-AA- Batterien gewählt. Diese liefern, pro Batterie 3,6V, und somit in Reihe geschaltet 7,2V. Die Batterien werden in eine standard Mignon-AA- Batteriehalterung platziert. Um diese Batteriehaltung in dem Design unterzubringen wurde eine dünne Platte per 3D-Druckverfahren angefertigt. Diese Platte kann über die beiden Female Pin-Layer des BeagleBone Black gelegt werden. Zur Befestigung dienen zwei Male Pin-Layer, welche durch Löcher in der 3D-Platte in das BeagleBone Black gesteckt werden können. Die Batteriehalterung wurde auf die 3D-Platte geklebt und zusätzlich mit Schrauben befestigt.
+
+Diese Schrauben dienen ebenfalls dazu eine zweite Platine von unten an die 3D-Platte zu schrauben. Diese zusätzliche Platine ist mit einem Vorwiederstand, einer Z-Diode und einer Diode ausgestattet und dient dazu die Ausgangsspannung des BeagleBone Black zu reduzieren und zu glätten. Die 7,2V Ausgangsspannung können dadurch auf 5V reduziert werden, welche für das Transceiver Modul notwendig sind.
