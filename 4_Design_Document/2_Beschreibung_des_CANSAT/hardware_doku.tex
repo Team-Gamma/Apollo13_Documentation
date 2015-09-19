@@ -40,4 +40,15 @@ Während des Baus des CanSats sind selbstverständlich einige Probleme aufgetret
 Um sicherzustellen, dass der CanSat problemlos funktioniert, wurden diverse Tests durchgeführt. Dazu zählt natürlich das Prüfen auf Funktionstüchtigkeit der Sensoren. Hierfür wurde jeder Sensor separat an verschiedene Mikrocontroller (BeagleBone Black, Arduino Mega) angeschlossen. Dadurch konnte verifiziert werden, dass jeder Sensor unter jedem Board den gleichen Output liefert. Zusätzlich wurde überprüft, ob die Sensoren auf eine Veränderung der zu messenden Eigenschaft reagieren. Um zu erkennen, ob die gemessenen Werte den tatsächlichen Werten entsprechen, werden diese im Umweltlabor von \href{https://www.atlas-elektronik.com/atlas-elektronik/}{Atlas Elektronik} getestet und kalibriert. Dort soll ebenfalls überprüft werden, wie stabil der CanSat ist, um vorherzusagen, ob er beim Aufschlag beschädigt wird. Das Testkonzept für die Sensoren beruht im Wesentlichen auf Trial and Error.
 
 \subsubsection{Test der Fallschirmgröße}
-Um den Fallschirm zu prüfen, wurde ein Experiment durchgeführt. Dazu wurde die Zugkraft des Fallschirms gemessen. Aus einem Auto, welches mit einer Geschwindigkeit von 50 km/h fuhr, haben wir einige Testfallschirme an einem Newtonmeter befestigt und diesen aus dem Auto gehalten. Aus der Geschwindigkeit und dem Widerstand des Newtonmeter konnten ermittelt werden, dass der Fallschirm keine 30 cm Durchmesser benötigt. Weitere Tests haben ergeben, dass 16 cm ein besserer Wert ist. Bei einem Fallschirm dieser Größe können auch schon relative kleine Veränderung der Größe die Fallgeschwindigkeit enorm erhöhen oder senken.
+Um den Fallschirm zu prüfen, wurde ein Experiment durchgeführt. Dazu wurde die Zugkraft des Fallschirms gemessen. Aus einem Auto, welches mit einer Geschwindigkeit von 50 km/h fuhr, haben wir einige Testfallschirme an einem Newtonmeter befestigt und diesen aus dem Auto gehalten. Die Berechnung des Neutonwerts, für unseren Fallschirm, sieht folgender maßen aus:
+\[
+F = m \cdot g
+\]
+\[
+F = 300g \cdot 9,81\frac{m}{s^2} \cdot \frac{1Kg}{1000g}
+\]
+\[
+F = 2,943 \frac{m}{s^2} Kg
+\]
+
+Aus der Geschwindigkeit und dem Widerstand des Newtonmeter konnten ermittelt werden, dass der Fallschirm keine 30 cm Durchmesser benötigt. Weitere Tests haben ergeben, dass 16 cm ein besserer Wert ist. Bei einem Fallschirm dieser Größe können auch schon relative kleine Veränderung der Größe die Fallgeschwindigkeit enorm erhöhen oder senken.
