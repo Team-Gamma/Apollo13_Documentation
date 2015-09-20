@@ -40,7 +40,8 @@ Während des Baus des CanSats sind selbstverständlich einige Probleme aufgetret
 \subsection{Testkonzept}
 Um sicherzustellen, dass der CanSat problemlos funktioniert, wurden diverse Tests durchgeführt. Dazu zählt natürlich das Prüfen auf Funktionstüchtigkeit der Sensoren. Hierfür wurde jeder Sensor separat an verschiedene Mikrocontroller (BeagleBone Black, Arduino Mega) angeschlossen. Dadurch konnte verifiziert werden, dass jeder Sensor unter jedem Board den gleichen Output liefert. Zusätzlich wurde überprüft, ob die Sensoren auf eine Veränderung der zu messenden Eigenschaft reagieren. Um zu erkennen, ob die gemessenen Werte den tatsächlichen Werten entsprechen, werden diese im Umweltlabor von \href{https://www.atlas-elektronik.com/atlas-elektronik/}{Atlas Elektronik} getestet und kalibriert. Dort soll ebenfalls überprüft werden, wie stabil der CanSat ist, um vorherzusagen, ob er beim Aufschlag beschädigt wird. Das Testkonzept für die Sensoren beruht im Wesentlichen auf Trial and Error.
 
-\subsubsection{Test der Fallschirmgröße}
+Die Antenne wird im \href{http://www.hf.uni-bremen.de/start/}{Labor für Hochfrequenztechnik an der Universität Bremen} durchgetestet. Hierzu wird die genaue Frequenz bestimmt, auf der die Antenne empfängt, und eine Impedanzanpassung durchgeführt.
+
 Um den Fallschirm zu prüfen wurde ein Experiment durchgeführt. Dazu wurde die Zugkraft des Fallschirms gemessen. Aus einem Auto, welches mit einer Geschwindigkeit von 50 km/h fuhr, haben wir einige Testfallschirme an einem Newtonmeter befestigt und dieses aus dem Auto gehalten. Die Berechnung der Kraft sieht folgendermaßen aus:
 \[
 F = m \cdot g
@@ -51,7 +52,7 @@ F = 300g \cdot 9,81\frac{m}{s^2} \cdot \frac{1kg}{1000g}
 \[
 F = 2,943 \frac{m}{s^2} kg
 \]
-Aus der Geschwindigkeit und dem Widerstand des Newtonmeters konnte ermittelt werden, dass der Fallschirm keine 30 cm Durchmesser benötigt. Weitere Tests haben ergeben, dass 16 cm ein besserer Wert ist. Bei einem Fallschirm dieser Größe können auch schon relative kleine Veränderung der Größe die Fallgeschwindigkeit enorm beeinflussen.
-
-\subsubsection{Niedrige Gazenbelastung}
+Aus der Geschwindigkeit und dem Widerstand des Newtonmeters konnte ermittelt werden, dass der Fallschirm keine 30 cm Durchmesser benötigt. Weitere Tests haben ergeben, dass 16 cm ein besserer Wert ist. Bei einem Fallschirm dieser Größe können auch schon relative kleine Veränderung der Größe die Fallgeschwindigkeit enorm beeinflussen. \\
 Beim Test der Fallschirmgröße ist uns aufgefallen, dass die Gaze bei mehreren Versuchen kleine Risse bekommen hat. Das Material, das wir verwendet haben, ist nicht stark genug, um die Belastungen während des Fluges zu tragen. Aus diesem Grund haben wir uns dazu entschieden, die Gaze komplett wegzulassen. Stattdessen verwenden wir, wie im letzten Jahr, acht Schnüre, die an der Dosendecke befestigt werden.
+
+Um die Datenübertragung und die restlichen Features des CanSats zu überprüfen, wird das System als Ganzes getestet. Der CanSat wird eingeschaltet, die Antenne auf den CanSat gerichtet, die Bodenstation an die Antenne angeschlossen, die Satellitenkonfiguration eingestellt, der Hotspot der Bodenstation gestartet und die Android-App mit dem Hotspot verbunden. Anhand der einzelnen Komponenten der Datenübertragung (CanSat, Desktopapplikation, Android-Applikation) lässt sich etwa erkennen, an welcher Stelle der Übertragung Fehler auftreten. Funktioniert die Übertragung über alle Komponenten mit allen Sensoren, so ist der Test erfolgreich.
